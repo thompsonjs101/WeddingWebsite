@@ -20,7 +20,7 @@ export default function Home() {
           <p className="mt-2 font-serif text-lg drop-shadow-lg md:text-xl">JUNE 22, 2026</p>
           <Button
             asChild
-            className="mt-6 border-white/70 bg-white/30 px-6 py-5 text-white shadow-md backdrop-blur-sm hover:bg-white/40"
+            className="mt-6 border-white/70 bg-white/30 px-6 py-5 text-white backdrop-blur-sm hover:bg-white/40"
             variant="outline"
           >
             <Link href="/rsvp">RSVP</Link>
@@ -29,7 +29,7 @@ export default function Home() {
       </section>
 
       {/* Navigation */}
-      <nav className="sticky top-0 z-50 border-b bg-white/90 backdrop-blur-sm shadow-sm">
+      <nav className="sticky top-0 z-50 border-b bg-white/90 backdrop-blur-sm">
         <div className="container mx-auto flex items-center justify-between py-4">
           <Link href="/" className="font-serif text-xl">
             E & J
@@ -54,9 +54,9 @@ export default function Home() {
       {/* Join Our Celebration */}
       <section className="py-20">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="font-serif text-3xl md:text-4xl text-with-bg mx-auto">Join Our Celebration</h2>
+          <h2 className="font-serif text-3xl md:text-4xl mx-auto">Join Our Celebration</h2>
           <div className="mx-auto mt-4 h-0.5 w-16 bg-rose-300"></div>
-          <div className="mx-auto mt-8 max-w-2xl bg-white/80 p-6 shadow-sm">
+          <div className="mx-auto mt-8 max-w-2xl">
             <p className="text-muted-foreground">
               Dear family and friends, we are overjoyed to invite you to celebrate the most special day of our lives.
               Your presence would mean the world to us as we exchange vows and begin our journey as a married couple.
@@ -66,7 +66,7 @@ export default function Home() {
           </div>
           <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-3">
             <div className="flex flex-col items-center">
-              <div className="relative h-64 w-full overflow-hidden shadow-md">
+              <div className="relative h-64 w-full">
                 <Image
                   src="/couple-formal-event.png"
                   alt="Emma and Joel at a formal event"
@@ -76,7 +76,7 @@ export default function Home() {
               </div>
             </div>
             <div className="flex flex-col items-center">
-              <div className="relative h-64 w-full overflow-hidden shadow-md">
+              <div className="relative h-64 w-full">
                 <Image
                   src="/couple-train-tracks.png"
                   alt="Emma and Joel on train tracks"
@@ -86,7 +86,7 @@ export default function Home() {
               </div>
             </div>
             <div className="flex flex-col items-center">
-              <div className="relative h-64 w-full overflow-hidden shadow-md">
+              <div className="relative h-64 w-full">
                 <Image
                   src="/couple-sunset.png"
                   alt="Emma and Joel at sunset"
@@ -102,47 +102,47 @@ export default function Home() {
       {/* Wedding Details */}
       <section className="py-20">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="font-serif text-3xl md:text-4xl text-with-bg mx-auto">Wedding Details</h2>
+          <h2 className="font-serif text-3xl md:text-4xl mx-auto">Wedding Details</h2>
           <div className="mx-auto mt-4 h-0.5 w-16 bg-rose-300"></div>
           <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-3">
             <div className="flex flex-col items-center">
-              <div className="flex h-16 w-16 items-center justify-center rounded-full bg-rose-100 shadow-sm">
+              <div className="flex h-16 w-16 items-center justify-center rounded-full bg-rose-100">
                 <Calendar className="h-8 w-8 text-rose-400" />
               </div>
-              <h3 className="mt-4 font-serif text-xl text-with-bg">When</h3>
-              <div className="mt-2 bg-white/90 p-4 shadow-sm">
+              <h3 className="mt-4 font-serif text-xl">When</h3>
+              <div className="mt-2">
                 <p className="text-muted-foreground">June 22, 2026</p>
                 <p className="text-muted-foreground">Ceremony: 6:00 PM</p>
                 <p className="text-muted-foreground">Reception: 8:00 PM</p>
               </div>
             </div>
             <div className="flex flex-col items-center">
-              <div className="flex h-16 w-16 items-center justify-center rounded-full bg-rose-100 shadow-sm">
+              <div className="flex h-16 w-16 items-center justify-center rounded-full bg-rose-100">
                 <MapPin className="h-8 w-8 text-rose-400" />
               </div>
-              <h3 className="mt-4 font-serif text-xl text-with-bg">Where</h3>
-              <div className="mt-2 bg-white/90 p-4 shadow-sm">
+              <h3 className="mt-4 font-serif text-xl">Where</h3>
+              <div className="mt-2">
                 <p className="text-muted-foreground">Cigarral de las Mercedes</p>
                 <p className="text-muted-foreground">Toledo, Spain</p>
                 <p className="text-muted-foreground">A beautiful historic venue with stunning views</p>
               </div>
             </div>
             <div className="flex flex-col items-center">
-              <div className="flex h-16 w-16 items-center justify-center rounded-full bg-rose-100 shadow-sm">
+              <div className="flex h-16 w-16 items-center justify-center rounded-full bg-rose-100">
                 <Heart className="h-8 w-8 text-rose-400" />
               </div>
-              <h3 className="mt-4 font-serif text-xl text-with-bg">Dress Code</h3>
-              <div className="mt-2 bg-white/90 p-4 shadow-sm">
+              <h3 className="mt-4 font-serif text-xl">Dress Code</h3>
+              <div className="mt-2">
                 <p className="text-muted-foreground">Whatever you feel the most handsome / beautiful in</p>
                 <p className="text-muted-foreground">(we want you to shine)</p>
               </div>
             </div>
           </div>
           <div className="mt-12 flex justify-center gap-4">
-            <Button asChild className="bg-rose-400 hover:bg-rose-500 shadow-md">
+            <Button asChild className="bg-rose-400 hover:bg-rose-500">
               <Link href="/rsvp">RSVP Now</Link>
             </Button>
-            <Button asChild variant="outline" className="border-rose-400 text-rose-400 hover:bg-rose-50 shadow-sm">
+            <Button asChild variant="outline" className="border-rose-400 text-rose-400 hover:bg-rose-50">
               <Link href="/itinerary">View Itinerary</Link>
             </Button>
           </div>
@@ -152,20 +152,20 @@ export default function Home() {
       {/* Footer */}
       <footer className="py-12 text-gray-800">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="font-serif text-3xl text-with-bg">Emma & Joel</h2>
-          <p className="mt-4 text-with-bg">June 22, 2026</p>
+          <h2 className="font-serif text-3xl">Emma & Joel</h2>
+          <p className="mt-4">June 22, 2026</p>
           <div className="mt-8 flex justify-center gap-8">
-            <Link href="/rsvp" className="text-with-bg hover:text-rose-400">
+            <Link href="/rsvp" className="hover:text-rose-400">
               RSVP
             </Link>
-            <Link href="/travel" className="text-with-bg hover:text-rose-400">
+            <Link href="/travel" className="hover:text-rose-400">
               Travel
             </Link>
-            <Link href="/itinerary" className="text-with-bg hover:text-rose-400">
+            <Link href="/itinerary" className="hover:text-rose-400">
               Itinerary
             </Link>
           </div>
-          <p className="mt-8 text-sm text-with-bg">
+          <p className="mt-8 text-sm">
             For questions, please contact us at{" "}
             <a href="mailto:weddingjoelandemma@gmail.com" className="underline hover:text-rose-400">
               weddingjoelandemma@gmail.com

@@ -7,7 +7,7 @@ export default function RSVPPage() {
   return (
     <div className="flex min-h-screen flex-col">
       {/* Navigation */}
-      <nav className="sticky top-0 z-50 border-b bg-white/90 backdrop-blur-sm shadow-sm">
+      <nav className="sticky top-0 z-50 border-b bg-white/90 backdrop-blur-sm">
         <div className="container mx-auto flex items-center justify-between py-4">
           <Link href="/" className="font-serif text-xl">
             E & J
@@ -32,11 +32,11 @@ export default function RSVPPage() {
       {/* RSVP Google Form Redirect */}
       <section className="flex-1 py-20">
         <div className="container mx-auto max-w-3xl px-4">
-          <h1 className="text-center font-serif text-3xl md:text-4xl text-with-bg mx-auto">RSVP</h1>
+          <h1 className="text-center font-serif text-3xl md:text-4xl mx-auto">RSVP</h1>
           <div className="mx-auto mt-4 h-0.5 w-16 bg-rose-300"></div>
 
-          <div className="mt-12 bg-white/95 p-8 shadow-md text-center">
-            <div className="relative mx-auto mb-8 h-80 w-80 overflow-hidden">
+          <div className="mt-12 text-center">
+            <div className="relative mx-auto mb-8 h-80 w-80">
               <Image
                 src="/couple-engagement-ring.png"
                 alt="Emma and Joel engagement photo"
@@ -59,7 +59,7 @@ export default function RSVPPage() {
               </a>
             </p>
 
-            <Button asChild className="bg-rose-400 hover:bg-rose-500 shadow-md px-8 py-6 text-lg" size="lg">
+            <Button asChild className="bg-rose-400 hover:bg-rose-500 px-8 py-6 text-lg" size="lg">
               <a
                 href="https://docs.google.com/forms/d/1Cure6rShnORLOClTK0qmzJZYa_NBTTJEYUHvRO_qWvI/edit"
                 target="_blank"
@@ -73,7 +73,7 @@ export default function RSVPPage() {
             <p className="mt-6 text-sm text-muted-foreground">The form will open in a new tab</p>
           </div>
 
-          <div className="mt-12 bg-white/95 p-6 shadow-md">
+          <div className="mt-12">
             <h3 className="font-serif text-xl mb-4">Important Details</h3>
             <ul className="space-y-3 text-muted-foreground">
               <li>• Please RSVP for each guest in your party</li>
@@ -87,20 +87,20 @@ export default function RSVPPage() {
       {/* Footer */}
       <footer className="py-12 text-gray-800">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="font-serif text-3xl text-with-bg">Emma & Joel</h2>
-          <p className="mt-4 text-with-bg">June 22, 2026</p>
+          <h2 className="font-serif text-3xl">Emma & Joel</h2>
+          <p className="mt-4">June 22, 2026</p>
           <div className="mt-8 flex justify-center gap-8">
-            <Link href="/rsvp" className="text-with-bg hover:text-rose-400">
+            <Link href="/rsvp" className="hover:text-rose-400">
               RSVP
             </Link>
-            <Link href="/travel" className="text-with-bg hover:text-rose-400">
+            <Link href="/travel" className="hover:text-rose-400">
               Travel
             </Link>
-            <Link href="/itinerary" className="text-with-bg hover:text-rose-400">
+            <Link href="/itinerary" className="hover:text-rose-400">
               Itinerary
             </Link>
           </div>
-          <p className="mt-8 text-sm text-with-bg">
+          <p className="mt-8 text-sm">
             For questions, please contact us at{" "}
             <a href="mailto:weddingjoelandemma@gmail.com" className="underline hover:text-rose-400">
               weddingjoelandemma@gmail.com
