@@ -27,24 +27,25 @@ export default function RootLayout({
           
           body {
             background-image: url('/floral-background.jpg');
-            background-size: cover;
-            background-position: center;
             background-repeat: no-repeat;
             background-attachment: scroll;
           }
           
-          /* For larger screens, use fixed attachment */
-          @media (min-width: 768px) {
+          /* Mobile: Show only side leaves, crop top/bottom flowers */
+          @media (max-width: 767px) {
             body {
-              background-attachment: fixed;
+              background-size: 150% auto;
+              background-position: center center;
+              min-height: 100vh;
             }
           }
           
-          /* Ensure background covers the full viewport on mobile */
-          @media (max-width: 767px) {
+          /* Desktop: Show full background */
+          @media (min-width: 768px) {
             body {
-              background-attachment: scroll;
-              min-height: 100vh;
+              background-size: cover;
+              background-position: center;
+              background-attachment: fixed;
             }
           }
         `}</style>
