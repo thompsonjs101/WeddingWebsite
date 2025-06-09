@@ -86,8 +86,8 @@ export default function ItineraryPage() {
               </div>
               <div className="px-3 md:px-6">
                 <p className="text-muted-foreground mb-4 text-sm md:text-base">
-                  Joel will be having his bachelor party with his friends in Madrid. Emma will be exploring Madrid with 
-                  anyone who would like to join her.
+                  Joel will be having his bachelor party with his friends in Madrid. Emma will be hoping to hang out
+                  with the partners during this time.
                 </p>
               </div>
             </div>
@@ -170,7 +170,7 @@ export default function ItineraryPage() {
                     <li className="flex items-start gap-2">
                       <span className="text-rose-400">•</span>
                       <span>
-                        <strong>Dress Code:</strong> Cocktail
+                        <strong>Dress Code:</strong> Smart Casual
                       </span>
                     </li>
                     <li className="flex items-start gap-2">

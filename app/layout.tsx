@@ -28,9 +28,24 @@ export default function RootLayout({
           body {
             background-image: url('/floral-background.jpg');
             background-size: cover;
-            background-attachment: fixed;
             background-position: center;
             background-repeat: no-repeat;
+            background-attachment: scroll;
+          }
+          
+          /* For larger screens, use fixed attachment */
+          @media (min-width: 768px) {
+            body {
+              background-attachment: fixed;
+            }
+          }
+          
+          /* Ensure background covers the full viewport on mobile */
+          @media (max-width: 767px) {
+            body {
+              background-attachment: scroll;
+              min-height: 100vh;
+            }
           }
         `}</style>
       </head>
