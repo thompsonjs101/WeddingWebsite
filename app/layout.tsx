@@ -25,17 +25,10 @@ export default function RootLayout({
             height: 100%;
           }
           
-          body {
-            background-image: url('/floral-background.jpg');
-            background-repeat: no-repeat;
-            background-attachment: scroll;
-          }
-          
-          /* Mobile: Show only side leaves, crop top/bottom flowers */
+          /* Mobile: No background image */
           @media (max-width: 767px) {
             body {
-              background-size: 150% auto;
-              background-position: center center;
+              background: white;
               min-height: 100vh;
             }
           }
@@ -43,8 +36,10 @@ export default function RootLayout({
           /* Desktop: Show full background */
           @media (min-width: 768px) {
             body {
+              background-image: url('/floral-background.jpg');
               background-size: cover;
               background-position: center;
+              background-repeat: no-repeat;
               background-attachment: fixed;
             }
           }
