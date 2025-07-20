@@ -127,10 +127,10 @@ export default function ItineraryPage() {
               </div>
               <div className="px-3 md:px-6">
                 <p className="text-muted-foreground mb-4 text-sm md:text-base">
-                  We'll be traveling to Toledo in the morning and checking into a hotel in town as the hotel is booked out for this day. In the
+                  We'll be traveling to Toledo in the morning and checking into a hotel in town as our wedding venue hotel is booked out for this day. In the
                   afternoon, we'll be meeting with our wedding planner to finalize details and visiting the venue to
-                  oversee the setup preparations. Up to individuals if they would like to stay an ectra night in Madrid and come into Toledo
-                   the day of the welcome party, or find a hotel in toledo for the night
+                  oversee the setup preparations. Up to individuals if they would like to stay an extra night in Madrid and come into Toledo
+                   the day of the welcome party, or find a hotel in Toledo for the night
                 </p>
               </div>
             </div>
