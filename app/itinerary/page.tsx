@@ -127,10 +127,10 @@ export default function ItineraryPage() {
               </div>
               <div className="px-3 md:px-6">
                 <p className="text-muted-foreground mb-4 text-sm md:text-base">
-                  We'll be traveling to Toledo in the morning and checking into a hotel in town as our wedding venue hotel is booked out for this day. In the
+                  We'll be traveling to Toledo in the morning and checking into the hotel. In the
                   afternoon, we'll be meeting with our wedding planner to finalize details and visiting the venue to
                   oversee the setup preparations. Up to individuals if they would like to stay an extra night in Madrid and come into Toledo
-                   the day of the welcome party, or find a hotel in Toledo for the night
+                   the day of the welcome party, or the hotel will open up a chance for room extensions 3 months before the date on a first come basis.
                 </p>
               </div>
             </div>
@@ -253,14 +253,15 @@ export default function ItineraryPage() {
                   </div>
                   <div className="text-left">
                     <h2 className="font-serif text-xl md:text-2xl">Tuesday</h2>
-                    <p className="text-rose-400 text-sm md:text-base">June 23, 2026 • Moving on</p>
+                    <p className="text-rose-400 text-sm md:text-base">June 23, 2026 • Resting or Moving on</p>
                   </div>
                 </div>
               </div>
               <div className="px-3 md:px-6">
                 <p className="text-muted-foreground mb-4 text-sm md:text-base">
-                  Unfortunately the venue is fully booked for a large wedding right after ours so we will be packing our bags
-                  and travelling on to our next location. Currently this is to be planned, however there has been words of Barcelona or somewhere with a beach.
+                  Unfortunately the venue doesnt open up for bookings outside of our wedding date until 3 months before the date, 
+                  so hopefully we can grab an extension for one day to rest before moving on to a new city. 
+                  Currently this is to be planned, however there has been words of Barcelona or somewhere with a beach.
                 </p>
               </div>
             </div>
