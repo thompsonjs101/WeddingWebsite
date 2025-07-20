@@ -127,9 +127,10 @@ export default function ItineraryPage() {
               </div>
               <div className="px-3 md:px-6">
                 <p className="text-muted-foreground mb-4 text-sm md:text-base">
-                  We'll be traveling to Toledo in the morning and checking into Cigarral de las Mercedes. In the
+                  We'll be traveling to Toledo in the morning and checking into a hotel in town as the hotel is booked out for this day. In the
                   afternoon, we'll be meeting with our wedding planner to finalize details and visiting the venue to
-                  oversee the setup preparations.
+                  oversee the setup preparations. Up to individuals if they would like to stay an ectra night in Madrid and come into Toledo
+                   the day of the welcome party, or find a hotel in toledo for the night
                 </p>
               </div>
             </div>
@@ -252,14 +253,14 @@ export default function ItineraryPage() {
                   </div>
                   <div className="text-left">
                     <h2 className="font-serif text-xl md:text-2xl">Tuesday</h2>
-                    <p className="text-rose-400 text-sm md:text-base">June 23, 2026 • Recovery Day</p>
+                    <p className="text-rose-400 text-sm md:text-base">June 23, 2026 • Moving on</p>
                   </div>
                 </div>
               </div>
               <div className="px-3 md:px-6">
                 <p className="text-muted-foreground mb-4 text-sm md:text-base">
-                  We'll be having a relaxed day after the celebrations. We plan to have a late breakfast at the hotel
-                  and spend the day reminiscing about the wedding.
+                  Unfortunately the venue is fully booked for a large wedding right after ours so we will be packing our bags
+                  and travelling on to our next location. Currently this is to be planned, however there has been words of Barcelona or somewhere with a beach.
                 </p>
               </div>
             </div>
