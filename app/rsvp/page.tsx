@@ -45,7 +45,7 @@ export default function RSVPPage() {
               />
             </div>
 
-            <h2 className="font-serif text-xl md:text-2xl mb-3 md:mb-4">Please RSVP by January 1, 2026</h2>
+            <h2 className="font-serif text-xl md:text-2xl mb-3 md:mb-4">Please RSVP by November 30, 2025</h2>
 
             <p className="text-muted-foreground mb-4 md:mb-6 text-sm md:text-base">
               We're excited to celebrate our special day with you! Please click the button below to fill out our RSVP
