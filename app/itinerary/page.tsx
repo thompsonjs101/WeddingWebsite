@@ -171,7 +171,7 @@ export default function ItineraryPage() {
                     <li className="flex items-start gap-2">
                       <span className="text-rose-400">•</span>
                       <span>
-                        <strong>Dress Code:</strong> Smart Casual
+                        <strong>Dress Code:</strong> Just wear something nice.
                       </span>
                     </li>
                     <li className="flex items-start gap-2">
