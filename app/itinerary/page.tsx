@@ -67,9 +67,8 @@ export default function ItineraryPage() {
                 <p className="text-muted-foreground mb-4 text-sm md:text-base">
                   We'll be arriving in Madrid at 7pm and checking into our hotel. We will be staying at one of the following hotels:
                   <li className="flex items-start gap-2">
-                      <span className="text-rose-400">•</span>
                       <span>
-                       <a href= "https://www.booking.com/hotel/es/crosstown-by-pillow.no.html?aid=898224&app_hotel_id=9662096&checkin=2026-06-17&checkout=2026-06-20&from_sn=ios&group_adults=2&group_children=0&label=hotel_details-5RQ1kwZ%401762875376&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA%2C&chal_t=1762971128862&force_referer="> BYPILLOW Crosstown </a> 
+                       <a href= "https://www.booking.com/hotel/es/crosstown-by-pillow.no.html?aid=898224&app_hotel_id=9662096&checkin=2026-06-17&checkout=2026-06-20&from_sn=ios&group_adults=2&group_children=0&label=hotel_details-5RQ1kwZ%401762875376&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA%2C&chal_t=1762971128862&force_referer=" className="text-rose-500 hover:underline"> BYPILLOW Crosstown </a> 
                       </span>
                   </li>
                   <li className="flex items-start gap-2">
