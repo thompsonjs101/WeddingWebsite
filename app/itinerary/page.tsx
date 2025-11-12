@@ -127,9 +127,7 @@ export default function ItineraryPage() {
               </div>
               <div className="px-3 md:px-6">
                 <p className="text-muted-foreground mb-4 text-sm md:text-base">
-                  Day activity: unknown 
-                  Dinner: Mercado de San Ildefonso. It is a food market, which will allow for everyone to eat what they want and there are no reservations needed. 
-                  Drinks: somewhere! 
+                 We are unsure of the day plan for this day but we will definitely meet whoever wishes for dinner at Mercado de San Ildefonso. It is a food market, which will allow for everyone to eat what they want and there are no reservations needed.  
                 </p>
               </div>
             </div>
