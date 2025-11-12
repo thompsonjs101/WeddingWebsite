@@ -66,9 +66,9 @@ export default function ItineraryPage() {
               <div className="px-3 md:px-6">
                 <p className="text-muted-foreground mb-4 text-sm md:text-base">
                   We'll be arriving in Madrid at 7pm and checking into our hotel. We will be staying at one of the following hotels:
-                  - https://www.booking.com/hotel/es/crosstown-by-pillow.no.html?aid=898224&app_hotel_id=9662096&checkin=2026-06-17&checkout=2026-06-20&from_sn=ios&group_adults=2&group_children=0&label=hotel_details-5RQ1kwZ%401762875376&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA%2C&chal_t=1762971128862&force_referer=
-                  - https://www.booking.com/hotel/es/b-amp-b-puerta-del-sol.no.html?aid=898224&label=hotel_details-G1uxJ9K%401762886716&sid=c23675ec250cebafd590b8c7f6fcf246&checkin=2026-06-17&checkout=2026-06-20&dist=0&from_sn=ios&group_adults=2&group_children=0&keep_landing=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA%2C&sb_price_type=total&type=total&
-                  - https://www.booking.com/hotel/es/villadelareina.no.html?fbclid=IwY2xjawOAcXhleHRuA2FlbQIxMABicmlkETFsSkt4VVFZV3pYb2tSVkVvc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHn-5Liz50ONzUlHj04fafB8EjS1hG26x_x5_TySgWI_wx8CSupc_kNPGlUKl_aem_ybs3Tdo88BlGLnykdjDMhw&chal_t=1762890281841&force_referer=https%3A%2F%2Fl.facebook.com%2F
+                  <a href= "https://www.booking.com/hotel/es/crosstown-by-pillow.no.html?aid=898224&app_hotel_id=9662096&checkin=2026-06-17&checkout=2026-06-20&from_sn=ios&group_adults=2&group_children=0&label=hotel_details-5RQ1kwZ%401762875376&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA%2C&chal_t=1762971128862&force_referer="> BYPILLOW Crosstown </a>
+                  <a href= "https://www.booking.com/hotel/es/b-amp-b-puerta-del-sol.no.html?aid=898224&label=hotel_details-G1uxJ9K%401762886716&sid=c23675ec250cebafd590b8c7f6fcf246&checkin=2026-06-17&checkout=2026-06-20&dist=0&from_sn=ios&group_adults=2&group_children=0&keep_landing=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA%2C&sb_price_type=total&type=total&"> B&B HOTEL Madrid Centro Puerta del Sol </a>
+                  <a href= "https://www.booking.com/hotel/es/villadelareina.no.html?fbclid=IwY2xjawOAcXhleHRuA2FlbQIxMABicmlkETFsSkt4VVFZV3pYb2tSVkVvc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHn-5Liz50ONzUlHj04fafB8EjS1hG26x_x5_TySgWI_wx8CSupc_kNPGlUKl_aem_ybs3Tdo88BlGLnykdjDMhw&chal_t=1762890281841&force_referer=https%3A%2F%2Fl.facebook.com%2F"> Boutique Hotel H10 Villa de la Reina </a>
                   We will be checking out the first two hotels in March but all are in the Sivilla area.
                   After we have checked in we will be going out for a quick bite and some drinks.
                 </p>
@@ -113,7 +113,7 @@ export default function ItineraryPage() {
               <div className="px-3 md:px-6">
                 <p className="text-muted-foreground mb-4 text-sm md:text-base">
                   Day activity: unknown 
-                  Dinner: Mercado de San Ildefonso. It is a food marked, which will allow for everyone to eat what they want and there are no reservations needed. 
+                  Dinner: Mercado de San Ildefonso. It is a food market, which will allow for everyone to eat what they want and there are no reservations needed. 
                   Drinks: somewhere! 
                 </p>
               </div>
@@ -134,7 +134,7 @@ export default function ItineraryPage() {
               </div>
               <div className="px-3 md:px-6">
                 <p className="text-muted-foreground mb-4 text-sm md:text-base">
-                  In the day we will be heading to https://www.parquewarner.com/en to spend a day enjoying rides and other such activities before the evening trip to Toledo.
+                  In the day we will be heading to <a href= "https://www.parquewarner.com/en"> Parque Warner </a> to spend a day enjoying rides and other such activities before the evening trip to Toledo.
                   Up to individuals if they would like to stay an extra night in Madrid and come into Toledo
                   the day of the welcome party, or the hotel will open up a chance for room extensions 3 months before the date on a first come basis.
                 </p>
@@ -275,46 +275,6 @@ export default function ItineraryPage() {
         </div>
       </section>
 
-      {/* Reccomendations*/}
-            <div className="border-b pb-5 md:pb-6">
-              <div className="px-3 md:px-6 py-3 md:py-4">
-                <div className="flex items-center gap-3 md:gap-4">
-                  <div className="flex h-10 w-10 md:h-12 md:w-12 items-center justify-center rounded-full bg-rose-100 text-rose-500 flex-shrink-0">
-                    <Calendar className="h-5 w-5 md:h-6 md:w-6" />
-                  </div>
-                  <div className="text-left">
-                    <h2 className="font-serif text-xl md:text-2xl">Reccomendations</h2>
-                    <p className="text-rose-400 text-sm md:text-base">June, 2026 • Reccomendations</p>
-                  </div>
-                </div>
-              </div>
-              <div className="px-3 md:px-6">
-                <p className="text-muted-foreground mb-4 text-sm md:text-base">
-                  Want some alone time/getting there before us, we have gathered all the recommendations we have received (cannot vouch for ourselves). They are all within a reasonable distance of the accommodation. Please note that reservations are the way to go in Madrid.  
-
-                  Restaurante Caluana | Madrid (Spanish tapas) 
-                  https://www.vinotecamoratin.com/ (Spanish) 
-                  Rosi La Loca ENG | Rosi La Loca (Spanish)
-                  HER | A modern eatery in the heart of barrio Salamanca, Madrid. (Spanish) 
-
-                  Mandarosso Mandarosso - Cucina italiana (Italian)
-                  Descubre la tradición de la cocina italiana - Numa (Italian) 
-
-                  LLAMA INN - Llama Inn Madrid (Peruvian) 
-                  Yatai – Es el primer mercado «street market» de cocina oriental con puestos gastronómicos de diferentes regiones que te teletransportarán a Asia con todos tus sentidos. (Asian food hall)
-                  Nunuka | Restaurante Georgiano Madrid|Gastronomía de Georgia (Georgian food)  
-                  Cannibal (raw bar) 
-                  Themed Restaurant in the Heart of Madrid - Bestial by Rosi la Loca (seafood) 
-                  Ten con Ten Madrid – Cocina Cosmopolita - Grupo Paraguas (Mediterranean)
-
-                  CHOCOLATERÍA SAN GINÉS, Madrid - Opiniones, Carta y Fotos (snack: churros)
-
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Footer */}
       <footer className="py-10 md:py-12 text-gray-800">
