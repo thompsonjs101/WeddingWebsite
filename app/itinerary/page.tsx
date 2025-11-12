@@ -72,15 +72,13 @@ export default function ItineraryPage() {
                       </span>
                   </li>
                   <li className="flex items-start gap-2">
-                      <span className="text-rose-400">•</span>
                       <span>
-                       <a href= "https://www.booking.com/hotel/es/b-amp-b-puerta-del-sol.no.html?aid=898224&label=hotel_details-G1uxJ9K%401762886716&sid=c23675ec250cebafd590b8c7f6fcf246&checkin=2026-06-17&checkout=2026-06-20&dist=0&from_sn=ios&group_adults=2&group_children=0&keep_landing=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA%2C&sb_price_type=total&type=total&"> B&B HOTEL Madrid Centro Puerta del Sol </a>
+                       <a href= "https://www.booking.com/hotel/es/b-amp-b-puerta-del-sol.no.html?aid=898224&label=hotel_details-G1uxJ9K%401762886716&sid=c23675ec250cebafd590b8c7f6fcf246&checkin=2026-06-17&checkout=2026-06-20&dist=0&from_sn=ios&group_adults=2&group_children=0&keep_landing=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA%2C&sb_price_type=total&type=total&" className="text-rose-500 hover:underline"> B&B HOTEL Madrid Centro Puerta del Sol </a>
                       </span>
                   </li>
                   <li className="flex items-start gap-2">
-                      <span className="text-rose-400">•</span>
                       <span>
-                      <a href= "https://www.booking.com/hotel/es/villadelareina.no.html?fbclid=IwY2xjawOAcXhleHRuA2FlbQIxMABicmlkETFsSkt4VVFZV3pYb2tSVkVvc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHn-5Liz50ONzUlHj04fafB8EjS1hG26x_x5_TySgWI_wx8CSupc_kNPGlUKl_aem_ybs3Tdo88BlGLnykdjDMhw&chal_t=1762890281841&force_referer=https%3A%2F%2Fl.facebook.com%2F"> Boutique Hotel H10 Villa de la Reina </a>
+                      <a href= "https://www.booking.com/hotel/es/villadelareina.no.html?fbclid=IwY2xjawOAcXhleHRuA2FlbQIxMABicmlkETFsSkt4VVFZV3pYb2tSVkVvc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHn-5Liz50ONzUlHj04fafB8EjS1hG26x_x5_TySgWI_wx8CSupc_kNPGlUKl_aem_ybs3Tdo88BlGLnykdjDMhw&chal_t=1762890281841&force_referer=https%3A%2F%2Fl.facebook.com%2F" className="text-rose-500 hover:underline"> Boutique Hotel H10 Villa de la Reina </a>
                       </span>
                   </li>
                   We will be checking out the first two hotels in March but all are in the Sevilla area.
