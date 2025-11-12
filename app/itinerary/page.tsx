@@ -275,6 +275,47 @@ export default function ItineraryPage() {
         </div>
       </section>
 
+      {/* Reccomendations*/}
+            <div className="border-b pb-5 md:pb-6">
+              <div className="px-3 md:px-6 py-3 md:py-4">
+                <div className="flex items-center gap-3 md:gap-4">
+                  <div className="flex h-10 w-10 md:h-12 md:w-12 items-center justify-center rounded-full bg-rose-100 text-rose-500 flex-shrink-0">
+                    <Calendar className="h-5 w-5 md:h-6 md:w-6" />
+                  </div>
+                  <div className="text-left">
+                    <h2 className="font-serif text-xl md:text-2xl">Reccomendations</h2>
+                    <p className="text-rose-400 text-sm md:text-base">June, 2026 • Reccomendations</p>
+                  </div>
+                </div>
+              </div>
+              <div className="px-3 md:px-6">
+                <p className="text-muted-foreground mb-4 text-sm md:text-base">
+                  Want some alone time/getting there before us, we have gathered all the recommendations we have received (cannot vouch for ourselves). They are all within a reasonable distance of the accommodation. Please note that reservations are the way to go in Madrid.  
+
+                  Restaurante Caluana | Madrid (Spanish tapas) 
+                  https://www.vinotecamoratin.com/ (Spanish) 
+                  Rosi La Loca ENG | Rosi La Loca (Spanish)
+                  HER | A modern eatery in the heart of barrio Salamanca, Madrid. (Spanish) 
+
+                  Mandarosso Mandarosso - Cucina italiana (Italian)
+                  Descubre la tradición de la cocina italiana - Numa (Italian) 
+
+                  LLAMA INN - Llama Inn Madrid (Peruvian) 
+                  Yatai – Es el primer mercado «street market» de cocina oriental con puestos gastronómicos de diferentes regiones que te teletransportarán a Asia con todos tus sentidos. (Asian food hall)
+                  Nunuka | Restaurante Georgiano Madrid|Gastronomía de Georgia (Georgian food)  
+                  Cannibal (raw bar) 
+                  Themed Restaurant in the Heart of Madrid - Bestial by Rosi la Loca (seafood) 
+                  Ten con Ten Madrid – Cocina Cosmopolita - Grupo Paraguas (Mediterranean)
+
+                  CHOCOLATERÍA SAN GINÉS, Madrid - Opiniones, Carta y Fotos (snack: churros)
+
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="py-10 md:py-12 text-gray-800">
         <div className="container mx-auto px-4 text-center">
