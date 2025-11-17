@@ -25,6 +25,12 @@ export default function TravelPage() {
             <Link href="/itinerary" className="text-sm font-medium hover:text-rose-400">
               Itinerary
             </Link>
+            <Link href="/madrid" className="text-sm font-medium hover:text-rose-400">
+              Madrid
+            </Link>
+            <Link href="/toledo" className="text-sm font-medium text-rose-400">
+              Toledo
+            </Link>
           </div>
         </div>
       </nav>
@@ -443,6 +449,12 @@ export default function TravelPage() {
             </Link>
             <Link href="/itinerary" className="hover:text-rose-400">
               Itinerary
+            </Link>
+            <Link href="/madrid" className="hover:text-rose-400">
+              Madrid
+            </Link>
+            <Link href="/toledo" className="hover:text-rose-400">
+              Toledo
             </Link>
           </div>
           <p className="mt-6 md:mt-8 text-xs md:text-sm px-4">

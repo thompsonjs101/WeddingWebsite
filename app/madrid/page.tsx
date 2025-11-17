@@ -1,0 +1,342 @@
+import Link from "next/link"
+import { MapPin, Utensils, Camera, Coffee, Wine, ShoppingBag } from 'lucide-react'
+import { Button } from "@/components/ui/button"
+
+export default function MadridPage() {
+  return (
+    <div className="flex min-h-screen flex-col">
+      {/* Hero Section */}
+      <section className="relative h-[40vh] md:h-[50vh]">
+        <div className="absolute inset-0 z-0">
+          <div className="h-full w-full bg-gradient-to-br from-rose-400 to-rose-600">
+            <div className="absolute inset-0 bg-black/20"></div>
+          </div>
+        </div>
+        <div className="relative z-10 flex h-full flex-col items-center justify-center text-center text-white px-4">
+          <h1 className="font-serif text-3xl md:text-4xl lg:text-5xl font-light tracking-wide drop-shadow-lg">
+            Madrid
+          </h1>
+          <div className="mt-3 md:mt-4 h-0.5 w-12 bg-white drop-shadow-lg"></div>
+          <p className="mt-3 md:mt-4 text-base md:text-lg tracking-wide drop-shadow-lg max-w-2xl">
+            Spain's vibrant capital - A perfect blend of art, culture, and culinary delights
+          </p>
+        </div>
+      </section>
+
+      {/* Navigation */}
+      <nav className="sticky top-0 z-50 border-b bg-white/90 backdrop-blur-sm">
+        <div className="container mx-auto flex items-center justify-between py-3 md:py-4 px-4">
+          <Link href="/" className="font-serif text-xl">
+            E & J
+          </Link>
+          <div className="flex gap-4 md:gap-6 lg:gap-10 items-center">
+            <Link href="/" className="text-sm font-medium hover:text-rose-400">
+              Home
+            </Link>
+            <Link href="/rsvp" className="text-sm font-medium hover:text-rose-400">
+              RSVP
+            </Link>
+            <Link href="/travel" className="text-sm font-medium hover:text-rose-400">
+              Travel
+            </Link>
+            <Link href="/itinerary" className="text-sm font-medium hover:text-rose-400">
+              Itinerary
+            </Link>
+            <Link href="/madrid" className="text-sm font-medium text-rose-400">
+              Madrid
+            </Link>
+            <Link href="/toledo" className="text-sm font-medium hover:text-rose-400">
+              Toledo
+            </Link>
+          </div>
+        </div>
+      </nav>
+
+      {/* Introduction */}
+      <section className="py-12 md:py-16">
+        <div className="container mx-auto px-4 text-center">
+          <h2 className="font-serif text-2xl md:text-3xl lg:text-4xl">Explore Madrid</h2>
+          <div className="mx-auto mt-3 md:mt-4 h-0.5 w-16 bg-rose-300"></div>
+          <p className="mx-auto mt-6 max-w-2xl text-muted-foreground text-sm md:text-base">
+            Madrid is a city that never sleeps, offering world-class museums, stunning architecture, and some of the best food in Spain. Here are our favorite spots to help you make the most of your visit.
+          </p>
+        </div>
+      </section>
+
+      {/* Restaurants Section */}
+      <section className="py-12 md:py-16">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-8 md:mb-12">
+            <div className="flex justify-center mb-4">
+              <div className="flex h-14 w-14 md:h-16 md:w-16 items-center justify-center rounded-full bg-rose-100">
+                <Utensils className="h-7 w-7 md:h-8 md:w-8 text-rose-400" />
+              </div>
+            </div>
+            <h3 className="font-serif text-2xl md:text-3xl">Recommended Restaurants</h3>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 max-w-6xl mx-auto">
+            {/* Sobrino de Botín */}
+            <div className="p-6 bg-white/80 backdrop-blur-sm rounded-lg border">
+              <h4 className="font-serif text-xl mb-2">Sobrino de Botín</h4>
+              <div className="flex items-center gap-2 text-sm text-muted-foreground mb-3">
+                <MapPin className="h-4 w-4" />
+                <span>Calle de los Cuchilleros, 17</span>
+              </div>
+              <p className="text-sm text-muted-foreground mb-3">
+                The world's oldest restaurant (since 1725)! Famous for their cochinillo asado (roast suckling pig) and traditional Castilian cuisine.
+              </p>
+              <div className="flex items-center gap-2">
+                <Wine className="h-4 w-4 text-rose-400" />
+                <span className="text-sm font-medium">Traditional Spanish</span>
+              </div>
+            </div>
+
+            {/* Mercado de San Miguel */}
+            <div className="p-6 bg-white/80 backdrop-blur-sm rounded-lg border">
+              <h4 className="font-serif text-xl mb-2">Mercado de San Miguel</h4>
+              <div className="flex items-center gap-2 text-sm text-muted-foreground mb-3">
+                <MapPin className="h-4 w-4" />
+                <span>Plaza de San Miguel</span>
+              </div>
+              <p className="text-sm text-muted-foreground mb-3">
+                A stunning iron and glass market hall with gourmet tapas, fresh seafood, wines, and Spanish delicacies. Perfect for sampling a variety of flavors.
+              </p>
+              <div className="flex items-center gap-2">
+                <Coffee className="h-4 w-4 text-rose-400" />
+                <span className="text-sm font-medium">Tapas Market</span>
+              </div>
+            </div>
+
+            {/* Casa Lucio */}
+            <div className="p-6 bg-white/80 backdrop-blur-sm rounded-lg border">
+              <h4 className="font-serif text-xl mb-2">Casa Lucio</h4>
+              <div className="flex items-center gap-2 text-sm text-muted-foreground mb-3">
+                <MapPin className="h-4 w-4" />
+                <span>Calle Cava Baja, 35</span>
+              </div>
+              <p className="text-sm text-muted-foreground mb-3">
+                Famous for their huevos rotos (broken eggs) and traditional Spanish dishes. A favorite among locals and celebrities alike.
+              </p>
+              <div className="flex items-center gap-2">
+                <Utensils className="h-4 w-4 text-rose-400" />
+                <span className="text-sm font-medium">Traditional Tavern</span>
+              </div>
+            </div>
+
+            {/* StreetXO */}
+            <div className="p-6 bg-white/80 backdrop-blur-sm rounded-lg border">
+              <h4 className="font-serif text-xl mb-2">StreetXO</h4>
+              <div className="flex items-center gap-2 text-sm text-muted-foreground mb-3">
+                <MapPin className="h-4 w-4" />
+                <span>Calle Serrano, 52</span>
+              </div>
+              <p className="text-sm text-muted-foreground mb-3">
+                Innovative Asian-Spanish fusion cuisine by Michelin-starred chef Dabiz Muñoz. An unforgettable culinary experience with bold flavors.
+              </p>
+              <div className="flex items-center gap-2">
+                <Wine className="h-4 w-4 text-rose-400" />
+                <span className="text-sm font-medium">Fusion Cuisine</span>
+              </div>
+            </div>
+
+            {/* Chocolatería San Ginés */}
+            <div className="p-6 bg-white/80 backdrop-blur-sm rounded-lg border">
+              <h4 className="font-serif text-xl mb-2">Chocolatería San Ginés</h4>
+              <div className="flex items-center gap-2 text-sm text-muted-foreground mb-3">
+                <MapPin className="h-4 w-4" />
+                <span>Pasadizo de San Ginés, 5</span>
+              </div>
+              <p className="text-sm text-muted-foreground mb-3">
+                Open since 1894, this iconic spot serves the best churros con chocolate in Madrid. A must-visit at any time of day or night!
+              </p>
+              <div className="flex items-center gap-2">
+                <Coffee className="h-4 w-4 text-rose-400" />
+                <span className="text-sm font-medium">Café & Desserts</span>
+              </div>
+            </div>
+
+            {/* El Club Allard */}
+            <div className="p-6 bg-white/80 backdrop-blur-sm rounded-lg border">
+              <h4 className="font-serif text-xl mb-2">El Club Allard</h4>
+              <div className="flex items-center gap-2 text-sm text-muted-foreground mb-3">
+                <MapPin className="h-4 w-4" />
+                <span>Calle Ferraz, 2</span>
+              </div>
+              <p className="text-sm text-muted-foreground mb-3">
+                Two Michelin-starred restaurant offering creative contemporary Spanish cuisine in an elegant modernist setting.
+              </p>
+              <div className="flex items-center gap-2">
+                <Wine className="h-4 w-4 text-rose-400" />
+                <span className="text-sm font-medium">Fine Dining</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Things to Do Section */}
+      <section className="py-12 md:py-16">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-8 md:mb-12">
+            <div className="flex justify-center mb-4">
+              <div className="flex h-14 w-14 md:h-16 md:w-16 items-center justify-center rounded-full bg-rose-100">
+                <Camera className="h-7 w-7 md:h-8 md:w-8 text-rose-400" />
+              </div>
+            </div>
+            <h3 className="font-serif text-2xl md:text-3xl">Things to Do</h3>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 max-w-5xl mx-auto">
+            {/* Prado Museum */}
+            <div className="p-6 bg-white/80 backdrop-blur-sm rounded-lg border">
+              <h4 className="font-serif text-xl mb-2">Museo del Prado</h4>
+              <div className="flex items-center gap-2 text-sm text-muted-foreground mb-3">
+                <MapPin className="h-4 w-4" />
+                <span>Paseo del Prado</span>
+              </div>
+              <p className="text-sm text-muted-foreground">
+                One of the world's finest art museums, home to masterpieces by Velázquez, Goya, and El Greco. Plan to spend at least 2-3 hours here.
+              </p>
+            </div>
+
+            {/* Royal Palace */}
+            <div className="p-6 bg-white/80 backdrop-blur-sm rounded-lg border">
+              <h4 className="font-serif text-xl mb-2">Royal Palace of Madrid</h4>
+              <div className="flex items-center gap-2 text-sm text-muted-foreground mb-3">
+                <MapPin className="h-4 w-4" />
+                <span>Calle de Bailén</span>
+              </div>
+              <p className="text-sm text-muted-foreground">
+                The official residence of the Spanish Royal Family. Explore the opulent rooms and stunning gardens surrounding this baroque palace.
+              </p>
+            </div>
+
+            {/* Retiro Park */}
+            <div className="p-6 bg-white/80 backdrop-blur-sm rounded-lg border">
+              <h4 className="font-serif text-xl mb-2">Retiro Park</h4>
+              <div className="flex items-center gap-2 text-sm text-muted-foreground mb-3">
+                <MapPin className="h-4 w-4" />
+                <span>Plaza de la Independencia</span>
+              </div>
+              <p className="text-sm text-muted-foreground">
+                Madrid's green lung - perfect for a leisurely stroll, rowing on the lake, or visiting the stunning Crystal Palace. Great for relaxing!
+              </p>
+            </div>
+
+            {/* Gran Vía */}
+            <div className="p-6 bg-white/80 backdrop-blur-sm rounded-lg border">
+              <h4 className="font-serif text-xl mb-2">Gran Vía Shopping</h4>
+              <div className="flex items-center gap-2 text-sm text-muted-foreground mb-3">
+                <ShoppingBag className="h-4 w-4" />
+                <span>Gran Vía Avenue</span>
+              </div>
+              <p className="text-sm text-muted-foreground">
+                Madrid's main shopping street with theaters, cinemas, and impressive early 20th-century architecture. Perfect for shopping and people-watching.
+              </p>
+            </div>
+
+            {/* Plaza Mayor */}
+            <div className="p-6 bg-white/80 backdrop-blur-sm rounded-lg border">
+              <h4 className="font-serif text-xl mb-2">Plaza Mayor</h4>
+              <div className="flex items-center gap-2 text-sm text-muted-foreground mb-3">
+                <MapPin className="h-4 w-4" />
+                <span>Plaza Mayor</span>
+              </div>
+              <p className="text-sm text-muted-foreground">
+                The heart of old Madrid. This historic square is surrounded by beautiful architecture and bustling cafés. Ideal for morning coffee or evening drinks.
+              </p>
+            </div>
+
+            {/* Reina Sofía Museum */}
+            <div className="p-6 bg-white/80 backdrop-blur-sm rounded-lg border">
+              <h4 className="font-serif text-xl mb-2">Reina Sofía Museum</h4>
+              <div className="flex items-center gap-2 text-sm text-muted-foreground mb-3">
+                <MapPin className="h-4 w-4" />
+                <span>Calle de Santa Isabel, 52</span>
+              </div>
+              <p className="text-sm text-muted-foreground">
+                Spain's national museum of 20th-century art, home to Picasso's Guernica and works by Dalí and Miró. A must for modern art lovers.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Tips Section */}
+      <section className="py-12 md:py-16">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto bg-rose-50/80 backdrop-blur-sm rounded-lg border p-6 md:p-8">
+            <h3 className="font-serif text-xl md:text-2xl mb-4 text-center">Quick Tips</h3>
+            <ul className="space-y-3 text-sm md:text-base text-muted-foreground">
+              <li className="flex gap-2">
+                <span className="text-rose-400">•</span>
+                <span>Madrid's metro is efficient and affordable - get a travel card if staying several days</span>
+              </li>
+              <li className="flex gap-2">
+                <span className="text-rose-400">•</span>
+                <span>Dinner starts late (9-10 PM) - embrace the Spanish schedule!</span>
+              </li>
+              <li className="flex gap-2">
+                <span className="text-rose-400">•</span>
+                <span>Most museums offer free entry during certain hours - check their websites</span>
+              </li>
+              <li className="flex gap-2">
+                <span className="text-rose-400">•</span>
+                <span>Try to learn a few Spanish phrases - locals appreciate the effort</span>
+              </li>
+              <li className="flex gap-2">
+                <span className="text-rose-400">•</span>
+                <span>Book restaurants in advance, especially for dinner on weekends</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="py-12 md:py-16">
+        <div className="container mx-auto px-4 text-center">
+          <h3 className="font-serif text-2xl md:text-3xl mb-6">Ready to Explore?</h3>
+          <div className="flex flex-col md:flex-row gap-4 justify-center">
+            <Button asChild className="bg-rose-400 hover:bg-rose-500">
+              <Link href="/toledo">Discover Toledo</Link>
+            </Button>
+            <Button asChild variant="outline" className="border-rose-400 text-rose-400 hover:bg-rose-50">
+              <Link href="/travel">Back to Travel Info</Link>
+            </Button>
+          </div>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="py-10 md:py-12 text-gray-800">
+        <div className="container mx-auto px-4 text-center">
+          <h2 className="font-serif text-2xl md:text-3xl">Emma & Joel</h2>
+          <p className="mt-3 md:mt-4">June 22, 2026</p>
+          <div className="mt-6 md:mt-8 flex flex-wrap justify-center gap-6 md:gap-8">
+            <Link href="/rsvp" className="hover:text-rose-400">
+              RSVP
+            </Link>
+            <Link href="/travel" className="hover:text-rose-400">
+              Travel
+            </Link>
+            <Link href="/itinerary" className="hover:text-rose-400">
+              Itinerary
+            </Link>
+            <Link href="/madrid" className="hover:text-rose-400">
+              Madrid
+            </Link>
+            <Link href="/toledo" className="hover:text-rose-400">
+              Toledo
+            </Link>
+          </div>
+          <p className="mt-6 md:mt-8 text-xs md:text-sm px-4">
+            For questions, please contact us at{" "}
+            <a href="mailto:weddingjoelandemma@gmail.com" className="underline hover:text-rose-400">
+              weddingjoelandemma@gmail.com
+            </a>
+          </p>
+        </div>
+      </footer>
+    </div>
+  )
+}
