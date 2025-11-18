@@ -56,7 +56,7 @@ export default function MadridPage() {
             </div>
             <h3 className="font-serif text-2xl md:text-3xl">Recommended Restaurants</h3>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 max-w-6xl mx-auto"></div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 max-w-6xl mx-auto">
             {/* Caluana */}
             <div className="p-6 bg-white/80 backdrop-blur-sm rounded-lg border">
               <h4 className="font-serif text-xl mb-2">Caluana</h4>
@@ -191,6 +191,7 @@ export default function MadridPage() {
               <a href= "https://restaurantetenconten.com/" className="text-rose-500 hover:underline"> Ten Con Ten </a>
               </div>
             </div>
+          </div>
       </section>
 
       {/* Things to Do Section */}
