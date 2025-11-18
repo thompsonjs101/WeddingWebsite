@@ -57,66 +57,64 @@ export default function MadridPage() {
             <h3 className="font-serif text-2xl md:text-3xl">Recommended Restaurants</h3>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 max-w-6xl mx-auto">
+
             {/* Caluana */}
-            <div className="p-6 bg-white/80 backdrop-blur-sm rounded-lg border items-center justify-center">
+            <div className="p-6 bg-white/80 backdrop-blur-sm rounded-lg border">
               <h4 className="font-serif text-xl mb-2">Caluana</h4>
               <div className="flex items-center gap-2 text-sm text-muted-foreground mb-3">
                 <MapPin className="h-4 w-4" />
-                <span>Calla de la Bolsa 12 · Madrid</span>
+                <span>C. de la Bolsa 12</span>
               </div>
               <p className="text-sm text-muted-foreground mb-3">
                 CALUANA is more than just a restaurant; it's the story of a journey between two countries passionate about gastronomy: Italy and Spain . This journey celebrates not only flavors but also the products, culture, and magic that each country brings.
               </p>
               <div className="flex items-center gap-2 items-center justify-center">
-                <a href= "https://caluana.com/" className="text-rose-500 hover:underline"> Caluana.com </a>
+                <a href= "https://caluana.com/" className="text-rose-500 hover:underline"> Caluana </a>
               </div>
             </div>
 
-            {/* Mercado de San Miguel */}
+            {/* Rosi La Loca */}
             <div className="p-6 bg-white/80 backdrop-blur-sm rounded-lg border">
-              <h4 className="font-serif text-xl mb-2">Mercado de San Miguel</h4>
+              <h4 className="font-serif text-xl mb-2">Rosi La Loca</h4>
               <div className="flex items-center gap-2 text-sm text-muted-foreground mb-3">
                 <MapPin className="h-4 w-4" />
-                <span>Plaza de San Miguel</span>
+                <span> C. de Cádiz 4 </span>
               </div>
               <p className="text-sm text-muted-foreground mb-3">
-                A stunning iron and glass market hall with gourmet tapas, fresh seafood, wines, and Spanish delicacies. Perfect for sampling a variety of flavors.
+                Enjoy the craziest and funniest tavern in Madrid where you will discover the fantastic and colorful world of Rosi la Loca.
               </p>
-              <div className="flex items-center gap-2">
-                <Coffee className="h-4 w-4 text-rose-400" />
-                <span className="text-sm font-medium">Tapas Market</span>
+              <div className="flex items-center gap-2 items-center justify-center">
+               <a href= "https://rosilaloca.com/rosi-la-loca-eng/" className="text-rose-500 hover:underline"> Rosi La Loca </a>
               </div>
             </div>
 
-            {/* Casa Lucio */}
+            {/* HER */}
             <div className="p-6 bg-white/80 backdrop-blur-sm rounded-lg border">
-              <h4 className="font-serif text-xl mb-2">Casa Lucio</h4>
+              <h4 className="font-serif text-xl mb-2">HER</h4>
               <div className="flex items-center gap-2 text-sm text-muted-foreground mb-3">
                 <MapPin className="h-4 w-4" />
-                <span>Calle Cava Baja, 35</span>
+                <span>C. de Hermosilla 4 </span>
               </div>
               <p className="text-sm text-muted-foreground mb-3">
-                Famous for their huevos rotos (broken eggs) and traditional Spanish dishes. A favorite among locals and celebrities alike.
+                A modern eatery in the heart of barrio Salamanca, Madrid. The food is Mediterranean-inspired with a focus on local artisan produce and a small wine list featuring low intervention producers.
               </p>
-              <div className="flex items-center gap-2">
-                <Utensils className="h-4 w-4 text-rose-400" />
-                <span className="text-sm font-medium">Traditional Tavern</span>
+              <div className="flex items-center gap-2 items-center justify-center">
+              <a href= "https://hermosillamadrid.es/en/" className="text-rose-500 hover:underline"> HER </a>
               </div>
             </div>
 
-            {/* StreetXO */}
+            {/* Mandarosso */}
             <div className="p-6 bg-white/80 backdrop-blur-sm rounded-lg border">
-              <h4 className="font-serif text-xl mb-2">StreetXO</h4>
+              <h4 className="font-serif text-xl mb-2">Mandarosso</h4>
               <div className="flex items-center gap-2 text-sm text-muted-foreground mb-3">
                 <MapPin className="h-4 w-4" />
-                <span>Calle Serrano, 52</span>
+                <span>C. Santa Ana 21</span>
               </div>
               <p className="text-sm text-muted-foreground mb-3">
-                Innovative Asian-Spanish fusion cuisine by Michelin-starred chef Dabiz Muñoz. An unforgettable culinary experience with bold flavors.
+                Mandarosso is a warm and inviting Italian restaurant in Madrid (Calle de Santa Ana 21), blending family-rooted cuisine from Southern Italy with elegant simplicity — think fresh pasta, rich lasagna, and indulgent homemade desserts.
               </p>
-              <div className="flex items-center gap-2">
-                <Wine className="h-4 w-4 text-rose-400" />
-                <span className="text-sm font-medium">Fusion Cuisine</span>
+              <div className="flex items-center gap-2 items-center justify-center">
+              <a href= "https://mandarosso.com/mandarosso/" className="text-rose-500 hover:underline"> Mandarosso </a>
               </div>
             </div>
 
@@ -125,34 +123,76 @@ export default function MadridPage() {
               <h4 className="font-serif text-xl mb-2">Chocolatería San Ginés</h4>
               <div className="flex items-center gap-2 text-sm text-muted-foreground mb-3">
                 <MapPin className="h-4 w-4" />
-                <span>Pasadizo de San Ginés, 5</span>
+                <span>Pasadizo de San Ginés 5</span>
               </div>
               <p className="text-sm text-muted-foreground mb-3">
                 Open since 1894, this iconic spot serves the best churros con chocolate in Madrid. A must-visit at any time of day or night!
               </p>
-              <div className="flex items-center gap-2">
-                <Coffee className="h-4 w-4 text-rose-400" />
-                <span className="text-sm font-medium">Café & Desserts</span>
+              <div className="flex items-center gap-2 items-center justify-center">
+              <a href= "https://chocolateriasangines.com/" className="text-rose-500 hover:underline"> Chocolatería San Ginés </a>
               </div>
             </div>
 
-            {/* El Club Allard */}
+            {/* Llama Inn Madrid */}
             <div className="p-6 bg-white/80 backdrop-blur-sm rounded-lg border">
-              <h4 className="font-serif text-xl mb-2">El Club Allard</h4>
+              <h4 className="font-serif text-xl mb-2">Llama Inn Madrid</h4>
               <div className="flex items-center gap-2 text-sm text-muted-foreground mb-3">
                 <MapPin className="h-4 w-4" />
-                <span>Calle Ferraz, 2</span>
+                <span>Conde de Xiquena 2</span>
               </div>
               <p className="text-sm text-muted-foreground mb-3">
-                Two Michelin-starred restaurant offering creative contemporary Spanish cuisine in an elegant modernist setting.
+                The aim of the cuisine here is to bring Peruvian flavours to the Spanish capital in dishes that are mainly designed for sharing (scallop ceviche, grouper tiradito, yakimeshi of king prawns etc), alongside others they describe as the “fiesta final” (sautéed beef and duck jerky with rice).
               </p>
-              <div className="flex items-center gap-2">
-                <Wine className="h-4 w-4 text-rose-400" />
-                <span className="text-sm font-medium">Fine Dining</span>
+              <div className="flex items-center gap-2 items-center justify-center">
+              <a href= "https://llamainnmadrid.com/" className="text-rose-500 hover:underline"> Llama Inn Madrid </a>
               </div>
             </div>
-          </div>
-        </div>
+
+            {/* Yatai Market */}
+            <div className="p-6 bg-white/80 backdrop-blur-sm rounded-lg border">
+              <h4 className="font-serif text-xl mb-2">Yatai Market</h4>
+              <div className="flex items-center gap-2 text-sm text-muted-foreground mb-3">
+                <MapPin className="h-4 w-4" />
+                <span>C. Doctor Cortezo 10</span>
+              </div>
+              <p className="text-sm text-muted-foreground mb-3">
+                Spain's first Asian market where you'll experience the best of Asian street food in a frenetic atmosphere that will thrill all your senses.
+              </p>
+              <div className="flex items-center gap-2 items-center justify-center">
+              <a href= "https://yataimarkets.com/" className="text-rose-500 hover:underline"> Yatai Market </a>
+              </div>
+            </div>
+
+            {/* Nunuka */}
+            <div className="p-6 bg-white/80 backdrop-blur-sm rounded-lg border">
+              <h4 className="font-serif text-xl mb-2">Nunuka</h4>
+              <div className="flex items-center gap-2 text-sm text-muted-foreground mb-3">
+                <MapPin className="h-4 w-4" />
+                <span>C. de la Libertad 13</span>
+              </div>
+              <p className="text-sm text-muted-foreground mb-3">
+                Nunuka is a little Georgian girl. Raised with her grandmother's love, she grew up enjoying the food and culture of her country. Now she's opening her own place in Madrid, a bistro where she shares three generations' passion for Georgian cuisine.
+              </p>
+              <div className="flex items-center gap-2 items-center justify-center">
+              <a href= "https://nunukamadrid.com/" className="text-rose-500 hover:underline"> Nunuka </a>
+              </div>
+            </div>
+
+
+            {/* Ten Con Ten */}
+            <div className="p-6 bg-white/80 backdrop-blur-sm rounded-lg border">
+              <h4 className="font-serif text-xl mb-2">Ten Con Ten</h4>
+              <div className="flex items-center gap-2 text-sm text-muted-foreground mb-3">
+                <MapPin className="h-4 w-4" />
+                <span>Ayala Street 6</span>
+              </div>
+              <p className="text-sm text-muted-foreground mb-3">
+                We enter an urban, international universe full of contrasts, quickly enveloped by the balance between music and hushed confidences. A unique setting where we receive a warm welcome from its friendly and sophisticated staff, who attend to every detail.
+              </p>
+              <div className="flex items-center gap-2 items-center justify-center">
+              <a href= "https://restaurantetenconten.com/" className="text-rose-500 hover:underline"> Ten Con Ten </a>
+              </div>
+            </div>
       </section>
 
       {/* Things to Do Section */}
