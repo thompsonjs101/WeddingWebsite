@@ -178,7 +178,6 @@ export default function MadridPage() {
               </div>
             </div>
 
-
             {/* Ten Con Ten */}
             <div className="p-6 bg-white/80 backdrop-blur-sm rounded-lg border">
               <h4 className="font-serif text-xl mb-2">Ten Con Ten</h4>
