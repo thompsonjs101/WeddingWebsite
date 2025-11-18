@@ -40,7 +40,7 @@ export default function MadridPage() {
           <h2 className="font-serif text-2xl md:text-3xl lg:text-4xl">Explore Madrid</h2>
           <div className="mx-auto mt-3 md:mt-4 h-0.5 w-16 bg-rose-300"></div>
           <p className="mx-auto mt-6 max-w-2xl text-muted-foreground text-sm md:text-base">
-            Madrid is a city that never sleeps, offering world-class museums, stunning architecture, and some of the best food in Spain. Here are our favorite spots to help you make the most of your visit.
+            Madrid is a city that never sleeps, offering world-class museums, stunning architecture, and some of the best food in Spain. Here are highly recommended spots to help you make the most of your visit.
           </p>
         </div>
       </section>
@@ -57,19 +57,18 @@ export default function MadridPage() {
             <h3 className="font-serif text-2xl md:text-3xl">Recommended Restaurants</h3>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 max-w-6xl mx-auto">
-            {/* Sobrino de Botín */}
+            {/* Caluana */}
             <div className="p-6 bg-white/80 backdrop-blur-sm rounded-lg border">
-              <h4 className="font-serif text-xl mb-2">Sobrino de Botín</h4>
+              <h4 className="font-serif text-xl mb-2">Caluana</h4>
               <div className="flex items-center gap-2 text-sm text-muted-foreground mb-3">
                 <MapPin className="h-4 w-4" />
-                <span>Calle de los Cuchilleros, 17</span>
+                <span>Calla de la Bolsa 12 · Madrid</span>
               </div>
               <p className="text-sm text-muted-foreground mb-3">
-                The world's oldest restaurant (since 1725)! Famous for their cochinillo asado (roast suckling pig) and traditional Castilian cuisine.
+                CALUANA is more than just a restaurant; it's the story of a journey between two countries passionate about gastronomy: Italy and Spain . This journey celebrates not only flavors but also the products, culture, and magic that each country brings.
               </p>
               <div className="flex items-center gap-2">
-                <Wine className="h-4 w-4 text-rose-400" />
-                <span className="text-sm font-medium">Traditional Spanish</span>
+                <a href= "https://caluana.com/" className="text-rose-500 hover:underline"> Caluana.com </a>
               </div>
             </div>
 
