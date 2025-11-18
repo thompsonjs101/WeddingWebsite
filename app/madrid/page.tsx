@@ -58,8 +58,8 @@ export default function MadridPage() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 max-w-6xl mx-auto">
             {/* Caluana */}
-            <div className="p-6 bg-white/80 backdrop-blur-sm rounded-lg border">
-              <h4 className="font-serif text-xl mb-2 items-center justify-center">Caluana</h4>
+            <div className="p-6 bg-white/80 backdrop-blur-sm rounded-lg border items-center justify-center">
+              <h4 className="font-serif text-xl mb-2">Caluana</h4>
               <div className="flex items-center gap-2 text-sm text-muted-foreground mb-3">
                 <MapPin className="h-4 w-4" />
                 <span>Calla de la Bolsa 12 · Madrid</span>
@@ -67,8 +67,8 @@ export default function MadridPage() {
               <p className="text-sm text-muted-foreground mb-3">
                 CALUANA is more than just a restaurant; it's the story of a journey between two countries passionate about gastronomy: Italy and Spain . This journey celebrates not only flavors but also the products, culture, and magic that each country brings.
               </p>
-              <div className="flex items-center gap-2">
-                <a href= "https://caluana.com/" className="text-rose-500 hover:underline items-center justify-center"> Caluana.com </a>
+              <div className="flex items-center gap-2 items-center justify-center">
+                <a href= "https://caluana.com/" className="text-rose-500 hover:underline"> Caluana.com </a>
               </div>
             </div>
 
