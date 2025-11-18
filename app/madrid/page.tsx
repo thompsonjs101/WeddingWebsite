@@ -67,8 +67,8 @@ export default function MadridPage() {
               <p className="text-sm text-muted-foreground mb-3">
                 CALUANA is more than just a restaurant; it's the story of a journey between two countries passionate about gastronomy: Italy and Spain . This journey celebrates not only flavors but also the products, culture, and magic that each country brings.
               </p>
-              <div className="flex items-center gap-2 items-center justify-center">
-                <a href= "https://caluana.com/" className="text-rose-500 hover:underline"> Caluana </a>
+              <div className="flex items-center gap-2 justify-center">
+                <a href="https://caluana.com/" className="text-rose-500 hover:underline"> Caluana </a>
               </div>
             </div>
 
@@ -82,8 +82,8 @@ export default function MadridPage() {
               <p className="text-sm text-muted-foreground mb-3">
                 Enjoy the craziest and funniest tavern in Madrid where you will discover the fantastic and colorful world of Rosi la Loca.
               </p>
-              <div className="flex items-center gap-2 items-center justify-center">
-               <a href= "https://rosilaloca.com/rosi-la-loca-eng/" className="text-rose-500 hover:underline"> Rosi La Loca </a>
+              <div className="flex items-center gap-2 justify-center">
+               <a href="https://rosilaloca.com/rosi-la-loca-eng/" className="text-rose-500 hover:underline"> Rosi La Loca </a>
               </div>
             </div>
 
@@ -97,8 +97,8 @@ export default function MadridPage() {
               <p className="text-sm text-muted-foreground mb-3">
                 A modern eatery in the heart of barrio Salamanca, Madrid. The food is Mediterranean-inspired with a focus on local artisan produce and a small wine list featuring low intervention producers.
               </p>
-              <div className="flex items-center gap-2 items-center justify-center">
-              <a href= "https://hermosillamadrid.es/en/" className="text-rose-500 hover:underline"> HER </a>
+              <div className="flex items-center gap-2 justify-center">
+              <a href="https://hermosillamadrid.es/en/" className="text-rose-500 hover:underline"> HER </a>
               </div>
             </div>
 
@@ -112,8 +112,8 @@ export default function MadridPage() {
               <p className="text-sm text-muted-foreground mb-3">
                 Mandarosso is a warm and inviting Italian restaurant in Madrid (Calle de Santa Ana 21), blending family-rooted cuisine from Southern Italy with elegant simplicity — think fresh pasta, rich lasagna, and indulgent homemade desserts.
               </p>
-              <div className="flex items-center gap-2 items-center justify-center">
-              <a href= "https://mandarosso.com/mandarosso/" className="text-rose-500 hover:underline"> Mandarosso </a>
+              <div className="flex items-center gap-2 justify-center">
+              <a href="https://mandarosso.com/mandarosso/" className="text-rose-500 hover:underline"> Mandarosso </a>
               </div>
             </div>
 
@@ -127,8 +127,8 @@ export default function MadridPage() {
               <p className="text-sm text-muted-foreground mb-3">
                 Open since 1894, this iconic spot serves the best churros con chocolate in Madrid. A must-visit at any time of day or night!
               </p>
-              <div className="flex items-center gap-2 items-center justify-center">
-              <a href= "https://chocolateriasangines.com/" className="text-rose-500 hover:underline"> Chocolatería San Ginés </a>
+              <div className="flex items-center gap-2 justify-center">
+              <a href="https://chocolateriasangines.com/" className="text-rose-500 hover:underline"> Chocolatería San Ginés </a>
               </div>
             </div>
 
@@ -140,10 +140,10 @@ export default function MadridPage() {
                 <span>Conde de Xiquena 2</span>
               </div>
               <p className="text-sm text-muted-foreground mb-3">
-                The aim of the cuisine here is to bring Peruvian flavours to the Spanish capital in dishes that are mainly designed for sharing (scallop ceviche, grouper tiradito, yakimeshi of king prawns etc), alongside others they describe as the “fiesta final” (sautéed beef and duck jerky with rice).
+                The aim of the cuisine here is to bring Peruvian flavours to the Spanish capital in dishes that are mainly designed for sharing (scallop ceviche, grouper tiradito, yakimeshi of king prawns etc), alongside others they describe as the "fiesta final" (sautéed beef and duck jerky with rice).
               </p>
-              <div className="flex items-center gap-2 items-center justify-center">
-              <a href= "https://llamainnmadrid.com/" className="text-rose-500 hover:underline"> Llama Inn Madrid </a>
+              <div className="flex items-center gap-2 justify-center">
+              <a href="https://llamainnmadrid.com/" className="text-rose-500 hover:underline"> Llama Inn Madrid </a>
               </div>
             </div>
 
@@ -157,8 +157,8 @@ export default function MadridPage() {
               <p className="text-sm text-muted-foreground mb-3">
                 Spain's first Asian market where you'll experience the best of Asian street food in a frenetic atmosphere that will thrill all your senses.
               </p>
-              <div className="flex items-center gap-2 items-center justify-center">
-              <a href= "https://yataimarkets.com/" className="text-rose-500 hover:underline"> Yatai Market </a>
+              <div className="flex items-center gap-2 justify-center">
+              <a href="https://yataimarkets.com/" className="text-rose-500 hover:underline"> Yatai Market </a>
               </div>
             </div>
 
@@ -172,8 +172,8 @@ export default function MadridPage() {
               <p className="text-sm text-muted-foreground mb-3">
                 Nunuka is a little Georgian girl. Raised with her grandmother's love, she grew up enjoying the food and culture of her country. Now she's opening her own place in Madrid, a bistro where she shares three generations' passion for Georgian cuisine.
               </p>
-              <div className="flex items-center gap-2 items-center justify-center">
-              <a href= "https://nunukamadrid.com/" className="text-rose-500 hover:underline"> Nunuka </a>
+              <div className="flex items-center gap-2 justify-center">
+              <a href="https://nunukamadrid.com/" className="text-rose-500 hover:underline"> Nunuka </a>
               </div>
             </div>
 
@@ -187,11 +187,12 @@ export default function MadridPage() {
               <p className="text-sm text-muted-foreground mb-3">
                 We enter an urban, international universe full of contrasts, quickly enveloped by the balance between music and hushed confidences. A unique setting where we receive a warm welcome from its friendly and sophisticated staff, who attend to every detail.
               </p>
-              <div className="flex items-center gap-2 items-center justify-center">
-              <a href= "https://restaurantetenconten.com/" className="text-rose-500 hover:underline"> Ten Con Ten </a>
+              <div className="flex items-center gap-2 justify-center">
+              <a href="https://restaurantetenconten.com/" className="text-rose-500 hover:underline"> Ten Con Ten </a>
               </div>
             </div>
           </div>
+        </div>
       </section>
 
       {/* Things to Do Section */}
