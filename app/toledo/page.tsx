@@ -5,24 +5,6 @@ import { Button } from "@/components/ui/button"
 export default function ToledoPage() {
   return (
     <div className="flex min-h-screen flex-col">
-      {/* Hero Section */}
-      <section className="relative h-[40vh] md:h-[50vh]">
-        <div className="absolute inset-0 z-0">
-          <div className="h-full w-full bg-gradient-to-br from-amber-500 to-orange-600">
-            <div className="absolute inset-0 bg-black/20"></div>
-          </div>
-        </div>
-        <div className="relative z-10 flex h-full flex-col items-center justify-center text-center text-white px-4">
-          <h1 className="font-serif text-3xl md:text-4xl lg:text-5xl font-light tracking-wide drop-shadow-lg">
-            Toledo
-          </h1>
-          <div className="mt-3 md:mt-4 h-0.5 w-12 bg-white drop-shadow-lg"></div>
-          <p className="mt-3 md:mt-4 text-base md:text-lg tracking-wide drop-shadow-lg max-w-2xl">
-            The City of Three Cultures - Where history, art, and tradition meet
-          </p>
-        </div>
-      </section>
-
       {/* Navigation */}
       <nav className="sticky top-0 z-50 border-b bg-white/90 backdrop-blur-sm">
         <div className="container mx-auto flex items-center justify-between py-3 md:py-4 px-4">
