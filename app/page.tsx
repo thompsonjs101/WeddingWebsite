@@ -68,10 +68,11 @@ export default function Home() {
           <div className="mx-auto mt-3 md:mt-4 h-0.5 w-16 bg-rose-300"></div>
           <div className="mx-auto mt-6 md:mt-8 max-w-2xl">
             <p className="text-muted-foreground text-sm md:text-base">
-              Dear family and friends, we are overjoyed to invite you to celebrate the most special day of our lives.
-              Your presence would mean the world to us as we exchange vows and begin our journey as a married couple.
-              We've planned a beautiful celebration in the historic city of Toledo, and we can't wait to share these
-              magical moments with the people we cherish most. Let's create memories that will last a lifetime!
+              Dear people (Joel is being difficult) 
+              We are so excited to invite you to our wedding, and would be honored if you can make it. 
+
+              Love 
+              Emma & Joel 
             </p>
           </div>
           <div className="mt-8 md:mt-12 grid grid-cols-1 gap-6 md:gap-8 md:grid-cols-3">

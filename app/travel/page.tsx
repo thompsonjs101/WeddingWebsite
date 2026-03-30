@@ -61,8 +61,7 @@ export default function TravelPage() {
                     </div>
                   </div>
                   <p className="text-muted-foreground text-sm md:text-base">
-                    The closest airport to Toledo is Madrid. Most international guests will arrive at Madrid-Barajas
-                    Adolfo Suárez International Airport (MAD).
+                    The closest airport to Toledo is Madrid (MAD).
                   </p>
                 </div>
 
@@ -118,7 +117,7 @@ export default function TravelPage() {
                     </div>
                   </div>
                   <div>
-                    <h4 className="font-medium mb-2 text-sm md:text-base">Taxi from Madrid Airport</h4>
+                    <h4 className="font-medium mb-2 text-sm md:text-base">Taxi / Bolt from Madrid</h4>
                     <ul className="space-y-1 md:space-y-2 text-muted-foreground text-sm md:text-base">
                       <li className="flex items-start gap-2">
                         <span className="text-rose-400">•</span>
@@ -126,11 +125,7 @@ export default function TravelPage() {
                       </li>
                       <li className="flex items-start gap-2">
                         <span className="text-rose-400">•</span>
-                        <span>Cost: Approximately €100</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <span className="text-rose-400">•</span>
-                        <span>Best for groups or families</span>
+                        <span>Cost: Between 60 - 120€ - This depends on availability and time of day.</span>
                       </li>
                     </ul>
                   </div>
@@ -249,7 +244,7 @@ export default function TravelPage() {
                     </div>
                   </div>
                   <p className="text-muted-foreground mb-3 text-sm md:text-base">
-                    We kindly ask that you respect our photography guidelines to ensure everyone can enjoy the day.
+                    We kindly ask that you respect out photographer during the wedding. (No photos during the ceremony, and ensure you don’t get in his way during the wedding) 
                   </p>
                   <ul className="space-y-1 md:space-y-2 text-muted-foreground text-sm md:text-base">
                     <li className="flex items-start gap-2">
@@ -259,17 +254,12 @@ export default function TravelPage() {
                     <li className="flex items-start gap-2">
                       <span className="text-rose-400">•</span>
                       <span>
-                        Please ensure your own photos don't interrupt the chance of having the professional take the
-                        shot
+                        We will set up a POV that will be available from the 18th of June to the 23rd of June. 
                       </span>
                     </li>
                     <li className="flex items-start gap-2">
                       <span className="text-rose-400">•</span>
-                      <span>Photos welcome after dinner (around 11:00 PM)</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-rose-400">•</span>
-                      <span>Share with #EmmaAndJoel2026</span>
+                      <span>There will be other things available, but you will just have to wait and see!</span>
                     </li>
                   </ul>
                 </div>
