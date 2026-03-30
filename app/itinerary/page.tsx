@@ -24,12 +24,6 @@ export default function ItineraryPage() {
             <Link href="/itinerary" className="text-sm font-medium text-rose-400">
               Itinerary
             </Link>
-            <Link href="/madrid" className="text-sm font-medium hover:text-rose-400">
-              Madrid
-            </Link>
-            <Link href="/toledo" className="text-sm font-medium text-rose-400">
-              Toledo
-            </Link>
           </div>
         </div>
       </nav>
@@ -71,26 +65,8 @@ export default function ItineraryPage() {
               </div>
               <div className="px-3 md:px-6">
                 <p className="text-muted-foreground mb-4 text-sm md:text-base">
-                  We'll be arriving in Madrid at 7pm and checking into our hotel. We have booked the following accommodation (with free cancellation) and will check out the first two when we go there in March. We have been recommended to stay in the Sevilla area. 
-                  <li className="flex items-start gap-2">
-                    <span className="text-rose-400">•</span>
-                      <span>
-                       <a href= "https://www.booking.com/hotel/es/crosstown-by-pillow.no.html?aid=898224&app_hotel_id=9662096&checkin=2026-06-17&checkout=2026-06-20&from_sn=ios&group_adults=2&group_children=0&label=hotel_details-5RQ1kwZ%401762875376&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA%2C&chal_t=1762971128862&force_referer=" className="text-rose-500 hover:underline"> BYPILLOW Crosstown </a> 
-                      </span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-rose-400">•</span>
-                      <span>
-                       <a href= "https://www.booking.com/hotel/es/b-amp-b-puerta-del-sol.no.html?aid=898224&label=hotel_details-G1uxJ9K%401762886716&sid=c23675ec250cebafd590b8c7f6fcf246&checkin=2026-06-17&checkout=2026-06-20&dist=0&from_sn=ios&group_adults=2&group_children=0&keep_landing=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA%2C&sb_price_type=total&type=total&" className="text-rose-500 hover:underline"> B&B HOTEL Madrid Centro Puerta del Sol </a>
-                      </span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-rose-400">•</span>
-                      <span>
-                      <a href= "https://www.booking.com/hotel/es/villadelareina.no.html?fbclid=IwY2xjawOAcXhleHRuA2FlbQIxMABicmlkETFsSkt4VVFZV3pYb2tSVkVvc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHn-5Liz50ONzUlHj04fafB8EjS1hG26x_x5_TySgWI_wx8CSupc_kNPGlUKl_aem_ybs3Tdo88BlGLnykdjDMhw&chal_t=1762890281841&force_referer=https%3A%2F%2Fl.facebook.com%2F" className="text-rose-500 hover:underline"> Boutique Hotel H10 Villa de la Reina </a>
-                      </span>
-                  </li>
-                  After we have checked in we will be going out for a quick bite and some drinks.
+                  We'll be arriving in Madrid and checking into our hotel. We're planning to have a quiet evening to
+                  recover from the journey and prepare for the week ahead.
                 </p>
               </div>
             </div>
@@ -111,9 +87,7 @@ export default function ItineraryPage() {
               <div className="px-3 md:px-6">
                 <p className="text-muted-foreground mb-4 text-sm md:text-base">
                   Joel will be having his bachelor party with his friends in Madrid. Emma will be hoping to hang out
-                  with the partners during this time. 
-                  <br></br>
-                  Please contact Max for more information about the Bachelor party and Lina for information on what the girls will be doing.
+                  with the partners during this time.
                 </p>
               </div>
             </div>
@@ -133,7 +107,7 @@ export default function ItineraryPage() {
               </div>
               <div className="px-3 md:px-6">
                 <p className="text-muted-foreground mb-4 text-sm md:text-base">
-                 We are unsure of the day plan for this day but we will definitely meet whoever wishes for dinner at Mercado de San Ildefonso. It is a food market, which will allow for everyone to eat what they want and there are no reservations needed.  
+                  We'll be spending the day exploring Madrid together.
                 </p>
               </div>
             </div>
@@ -153,9 +127,9 @@ export default function ItineraryPage() {
               </div>
               <div className="px-3 md:px-6">
                 <p className="text-muted-foreground mb-4 text-sm md:text-base">
-                  In the day we will be heading to <a href= "https://www.parquewarner.com/en"> Parque Warner </a> to spend a day enjoying rides and other such activities before the evening trip to Toledo.
-                  Up to individuals if they would like to stay an extra night in Madrid and come into Toledo
-                  the day of the welcome party, or the hotel will open up a chance for room extensions 3 months before the date on a first come basis.
+                  We'll be traveling to Toledo in the morning and checking into Cigarral de las Mercedes. In the
+                  afternoon, we'll be meeting with our wedding planner to finalize details and visiting the venue to
+                  oversee the setup preparations.
                 </p>
               </div>
             </div>
@@ -278,22 +252,20 @@ export default function ItineraryPage() {
                   </div>
                   <div className="text-left">
                     <h2 className="font-serif text-xl md:text-2xl">Tuesday</h2>
-                    <p className="text-rose-400 text-sm md:text-base">June 23, 2026 • Resting or Moving on</p>
+                    <p className="text-rose-400 text-sm md:text-base">June 23, 2026 • Recovery Day</p>
                   </div>
                 </div>
               </div>
               <div className="px-3 md:px-6">
                 <p className="text-muted-foreground mb-4 text-sm md:text-base">
-                  Unfortunately the venue doesnt open up for bookings outside of our wedding date until 3 months before the date, 
-                  so hopefully we can grab an extension for one day to rest before moving on to a new city. 
-                  Currently this is to be planned, however there has been words of Barcelona or somewhere with a beach.
+                  We'll be having a relaxed day after the celebrations. We plan to have a late breakfast at the hotel
+                  and spend the day reminiscing about the wedding.
                 </p>
               </div>
             </div>
           </div>
         </div>
       </section>
-
 
       {/* Footer */}
       <footer className="py-10 md:py-12 text-gray-800">
@@ -309,12 +281,6 @@ export default function ItineraryPage() {
             </Link>
             <Link href="/itinerary" className="hover:text-rose-400">
               Itinerary
-            </Link>
-            <Link href="/madrid" className="hover:text-rose-400">
-              Madrid
-            </Link>
-            <Link href="/toledo" className="hover:text-rose-400">
-              Toledo
             </Link>
           </div>
           <p className="mt-6 md:mt-8 text-xs md:text-sm px-4">

@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
-import { Calendar, MapPin, Heart } from "lucide-react"
+import { Calendar, MapPin, Heart } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 
 export default function Home() {
@@ -54,7 +54,7 @@ export default function Home() {
             <Link href="/madrid" className="text-sm font-medium hover:text-rose-400">
               Madrid
             </Link>
-            <Link href="/toledo" className="text-sm font-medium text-rose-400">
+            <Link href="/toledo" className="text-sm font-medium hover:text-rose-400">
               Toledo
             </Link>
           </div>

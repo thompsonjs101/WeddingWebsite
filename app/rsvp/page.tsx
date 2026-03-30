@@ -25,12 +25,6 @@ export default function RSVPPage() {
             <Link href="/itinerary" className="text-sm font-medium hover:text-rose-400">
               Itinerary
             </Link>
-            <Link href="/madrid" className="text-sm font-medium hover:text-rose-400">
-              Madrid
-            </Link>
-            <Link href="/toledo" className="text-sm font-medium text-rose-400">
-              Toledo
-            </Link>
           </div>
         </div>
       </nav>
@@ -51,7 +45,7 @@ export default function RSVPPage() {
               />
             </div>
 
-            <h2 className="font-serif text-xl md:text-2xl mb-3 md:mb-4">Please RSVP by November 30, 2025</h2>
+            <h2 className="font-serif text-xl md:text-2xl mb-3 md:mb-4">Please RSVP by May 1, 2026</h2>
 
             <p className="text-muted-foreground mb-4 md:mb-6 text-sm md:text-base">
               We're excited to celebrate our special day with you! Please click the button below to fill out our RSVP
@@ -108,12 +102,6 @@ export default function RSVPPage() {
             </Link>
             <Link href="/itinerary" className="hover:text-rose-400">
               Itinerary
-            </Link>
-            <Link href="/madrid" className="hover:text-rose-400">
-              Madrid
-            </Link>
-            <Link href="/toledo" className="hover:text-rose-400">
-              Toledo
             </Link>
           </div>
           <p className="mt-6 md:mt-8 text-xs md:text-sm px-4">
