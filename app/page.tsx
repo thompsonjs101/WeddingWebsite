@@ -138,7 +138,7 @@ export default function Home() {
               className="mt-4 bg-[#1DB954] hover:bg-[#1ed760] text-white"
             >
               <a
-                href="https://open.spotify.com/playlist/7h5dw0uBYO21sBqJ7E9sCU"
+                href="https://open.spotify.com/playlist/7h5dw0uBYO21sBqJ7E9sCU?si=1e226e88999249d8&pt=0fcc6f5d222249d81a1f30b402ff535e"
                 target="_blank"
                 rel="noopener noreferrer"
               >
