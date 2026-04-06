@@ -294,10 +294,6 @@ export default function MadridPage() {
               </li>
               <li className="flex gap-2">
                 <span className="text-rose-400">•</span>
-                <span>Dinner starts late (9-10 PM) - embrace the Spanish schedule!</span>
-              </li>
-              <li className="flex gap-2">
-                <span className="text-rose-400">•</span>
                 <span>Most museums offer free entry during certain hours - check their websites</span>
               </li>
               <li className="flex gap-2">

@@ -98,7 +98,7 @@ export default function TravelPage() {
 
                 <ul className="text-sm text-muted-foreground space-y-2">
                   <li>• Journey: ~1 hour</li>
-                  <li>• Cost: €60–€120 depending on time</li>
+                  <li>• Cost: €60–€120 depending on time / availability</li>
                 </ul>
               </div>
             </div>

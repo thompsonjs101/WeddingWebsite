@@ -238,7 +238,7 @@ export default function ItineraryPage() {
                     </div>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-rose-400 font-medium">20:00</span>
+                    <span className="text-rose-400 font-medium">20:30</span>
                     <div>
                       <span className="font-medium">Dinner Reception</span>
                       <p className="text-xs md:text-sm">Location: Mirador</p>
