@@ -149,10 +149,6 @@ export default function Home() {
 
           {/* Buttons */}
           <div className="mt-12 flex flex-col md:flex-row justify-center gap-4">
-            <Button asChild className="bg-rose-400 hover:bg-rose-500">
-              <Link href="/rsvp">RSVP Now</Link>
-            </Button>
-
             <Button
               asChild
               variant="outline"
