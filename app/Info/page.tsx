@@ -23,6 +23,12 @@ export default function InfoPage() {
             <Link href="/itinerary" className="text-sm font-medium hover:text-rose-400">
               Itinerary
             </Link>
+            <Link href="/madrid" className="text-sm font-medium hover:text-rose-400">
+              Madrid
+            </Link>
+            <Link href="/toledo" className="text-sm font-medium text-rose-400">
+              Toledo
+            </Link>
             <Link href="/Info" className="text-sm font-medium text-rose-400">
               Info
             </Link>
