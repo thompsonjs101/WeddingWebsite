@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
-import { Car, Plane, Train, Sun, Mail, Info, MapPin, Utensils, Camera, Heart } from "lucide-react"
+import { Car, Plane, Train, Mail, MapPin, Utensils, Info } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export default function TravelPage() {
@@ -24,6 +24,9 @@ export default function TravelPage() {
             </Link>
             <Link href="/itinerary" className="text-sm font-medium hover:text-rose-400">
               Itinerary
+            </Link>
+            <Link href="/info" className="text-sm font-medium hover:text-rose-400">
+              Info
             </Link>
           </div>
         </div>
@@ -198,142 +201,6 @@ export default function TravelPage() {
             </div>
           </div>
 
-          {/* Additional Information */}
-          <div className="mt-10 md:mt-16">
-            <h2 className="text-center font-serif text-xl md:text-2xl mx-auto">Additional Information</h2>
-            <div className="mx-auto mt-6 md:mt-8 max-w-4xl">
-              <div className="grid gap-6 md:gap-8 md:grid-cols-2 lg:grid-cols-4">
-                <div className="p-3 md:p-4">
-                  <div className="flex flex-row items-center gap-3 md:gap-4 mb-3 md:mb-4">
-                    <div className="flex h-10 w-10 md:h-12 md:w-12 items-center justify-center rounded-full bg-rose-100">
-                      <Sun className="h-5 w-5 md:h-6 md:w-6 text-rose-400" />
-                    </div>
-                    <div>
-                      <h3 className="font-medium text-base md:text-lg">Weather</h3>
-                      <p className="text-xs md:text-sm text-muted-foreground">Toledo in June</p>
-                    </div>
-                  </div>
-                  <p className="text-muted-foreground mb-3 text-sm md:text-base">
-                    Toledo in June is very hot during the day (up to 32°C) but comfortable in the evening (around 21°C).
-                  </p>
-                  <ul className="space-y-1 md:space-y-2 text-muted-foreground text-sm md:text-base">
-                    <li className="flex items-start gap-2">
-                      <span className="text-rose-400">•</span>
-                      <span>Bring sun protection for daytime</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-rose-400">•</span>
-                      <span>Light evening wear recommended</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-rose-400">•</span>
-                      <span>Stay hydrated during sightseeing</span>
-                    </li>
-                  </ul>
-                </div>
-
-                <div className="p-3 md:p-4">
-                  <div className="flex flex-row items-center gap-3 md:gap-4 mb-3 md:mb-4">
-                    <div className="flex h-10 w-10 md:h-12 md:w-12 items-center justify-center rounded-full bg-rose-100">
-                      <Camera className="h-5 w-5 md:h-6 md:w-6 text-rose-400" />
-                    </div>
-                    <div>
-                      <h3 className="font-medium text-base md:text-lg">Photography</h3>
-                      <p className="text-xs md:text-sm text-muted-foreground">Photo Guidelines</p>
-                    </div>
-                  </div>
-                  <p className="text-muted-foreground mb-3 text-sm md:text-base">
-                    We kindly ask that you respect our photography guidelines to ensure everyone can enjoy the day.
-                  </p>
-                  <ul className="space-y-1 md:space-y-2 text-muted-foreground text-sm md:text-base">
-                    <li className="flex items-start gap-2">
-                      <span className="text-rose-400">•</span>
-                      <span>No photos during the ceremony</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-rose-400">•</span>
-                      <span>
-                        Please ensure your own photos don't interrupt the chance of having the professional take the
-                        shot
-                      </span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-rose-400">•</span>
-                      <span>Photos welcome after dinner (around 11:00 PM)</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-rose-400">•</span>
-                      <span>Share with #EmmaAndJoel2026</span>
-                    </li>
-                  </ul>
-                </div>
-
-                <div className="p-3 md:p-4">
-                  <div className="flex flex-row items-center gap-3 md:gap-4 mb-3 md:mb-4">
-                    <div className="flex h-10 w-10 md:h-12 md:w-12 items-center justify-center rounded-full bg-rose-100">
-                      <Info className="h-5 w-5 md:h-6 md:w-6 text-rose-400" />
-                    </div>
-                    <div>
-                      <h3 className="font-medium text-base md:text-lg">Special Needs</h3>
-                      <p className="text-xs md:text-sm text-muted-foreground">Accommodations</p>
-                    </div>
-                  </div>
-                  <p className="text-muted-foreground mb-3 text-sm md:text-base">
-                    If you have any dietary restrictions or special needs, please let us know when you RSVP.
-                  </p>
-                  <ul className="space-y-1 md:space-y-2 text-muted-foreground text-sm md:text-base">
-                    <li className="flex items-start gap-2">
-                      <span className="text-rose-400">•</span>
-                      <span>Dietary requirements</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-rose-400">•</span>
-                      <span>Accessibility needs</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-rose-400">•</span>
-                      <span>Contact us with any concerns</span>
-                    </li>
-                  </ul>
-                </div>
-                <div className="p-3 md:p-4">
-                  <div className="flex flex-row items-center gap-3 md:gap-4 mb-3 md:mb-4">
-                    <div className="flex h-10 w-10 md:h-12 md:w-12 items-center justify-center rounded-full bg-rose-100">
-                      <Heart className="h-5 w-5 md:h-6 md:w-6 text-rose-400" />
-                    </div>
-                    <div>
-                      <h3 className="font-medium text-base md:text-lg">Babysitting Services</h3>
-                      <p className="text-xs md:text-sm text-muted-foreground">Available through the hotel</p>
-                    </div>
-                  </div>
-                  <p className="text-muted-foreground mb-3 text-sm md:text-base">
-                    The hotel offers babysitting services for families attending the wedding. Please contact them
-                    directly to arrange.
-                  </p>
-                  <ul className="space-y-1 md:space-y-2 text-muted-foreground text-sm md:text-base">
-                    <li className="flex items-start gap-2">
-                      <span className="text-rose-400">•</span>
-                      <span>Professional childcare services available</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-rose-400">•</span>
-                      <span>Advance booking recommended</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-rose-400">•</span>
-                      <span>
-                        Contact:{" "}
-                        <a href="mailto:hotel@cigarraldelasmercedes.com" className="text-rose-500 hover:underline">
-                          hotel@cigarraldelasmercedes.com
-                        </a>
-                      </span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-
           {/* Destination Information */}
           <div className="mt-10 md:mt-16">
             <h2 className="text-center font-serif text-xl md:text-2xl mx-auto">Destination Information</h2>
@@ -443,6 +310,9 @@ export default function TravelPage() {
             </Link>
             <Link href="/itinerary" className="hover:text-rose-400">
               Itinerary
+            </Link>
+            <Link href="/info" className="hover:text-rose-400">
+              Info
             </Link>
           </div>
           <p className="mt-6 md:mt-8 text-xs md:text-sm px-4">

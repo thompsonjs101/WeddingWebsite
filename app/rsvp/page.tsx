@@ -25,6 +25,9 @@ export default function RSVPPage() {
             <Link href="/itinerary" className="text-sm font-medium hover:text-rose-400">
               Itinerary
             </Link>
+            <Link href="/info" className="text-sm font-medium hover:text-rose-400">
+              Info
+            </Link>
           </div>
         </div>
       </nav>
@@ -102,6 +105,9 @@ export default function RSVPPage() {
             </Link>
             <Link href="/itinerary" className="hover:text-rose-400">
               Itinerary
+            </Link>
+            <Link href="/info" className="hover:text-rose-400">
+              Info
             </Link>
           </div>
           <p className="mt-6 md:mt-8 text-xs md:text-sm px-4">
