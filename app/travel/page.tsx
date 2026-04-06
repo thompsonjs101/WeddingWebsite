@@ -31,7 +31,7 @@ export default function TravelPage() {
             <Link href="/toledo" className="text-sm font-medium text-rose-400">
               Toledo
             </Link>
-            <Link href="/info" className="text-sm font-medium hover:text-rose-400">
+            <Link href="/Info" className="text-sm font-medium hover:text-rose-400">
               Info
             </Link>
           </div>
