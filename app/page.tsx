@@ -5,26 +5,6 @@ import { Button } from "@/components/ui/button"
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen flex-col">
-      {/* Hero Section */}
-      <section className="relative h-[50vh]">
-        <div className="absolute inset-0 z-0">
-          <div className="h-full w-full bg-[url('/spanish-wedding-bg.jpg')] bg-cover bg-center bg-no-repeat">
-            <div className="absolute inset-0 bg-gradient-to-b from-black/40 to-black/60"></div>
-          </div>
-        </div>
-        <div className="relative z-10 flex h-full flex-col items-center justify-center text-center text-white px-4">
-          <h1 className="font-serif text-3xl md:text-4xl lg:text-5xl font-light tracking-wide drop-shadow-lg">
-            Emma & Joel
-          </h1>
-          <div className="mt-3 md:mt-4 h-0.5 w-12 bg-white drop-shadow-lg"></div>
-          <p className="mt-3 md:mt-4 font-serif text-base md:text-lg tracking-widest drop-shadow-lg">
-            ARE GETTING MARRIED
-          </p>
-          <p className="mt-1 md:mt-2 font-serif text-base md:text-lg drop-shadow-lg">JUNE 22, 2026</p>
-        </div>
-      </section>
-
       {/* Navigation */}
       <nav className="sticky top-0 z-50 border-b bg-white/90 backdrop-blur-sm">
         <div className="container mx-auto flex items-center justify-between py-3 md:py-4 px-4">
@@ -57,7 +37,7 @@ export default function Home() {
       {/* Join Our Celebration */}
       <section className="py-12 md:py-20">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="font-serif text-2xl md:text-3xl lg:text-4xl mx-auto">Join Our Celebration</h2>
+          <h2 className="font-serif text-2xl md:text-3xl lg:text-4xl mx-auto">Emma and Joel</h2>
           <div className="mx-auto mt-3 md:mt-4 h-0.5 w-16 bg-rose-300"></div>
           <div className="mx-auto mt-6 md:mt-8 max-w-2xl">
             <p className="text-muted-foreground text-sm md:text-base">
