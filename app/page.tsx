@@ -22,13 +22,6 @@ export default function Home() {
             ARE GETTING MARRIED
           </p>
           <p className="mt-1 md:mt-2 font-serif text-base md:text-lg drop-shadow-lg">JUNE 22, 2026</p>
-          <Button
-            asChild
-            className="mt-5 md:mt-6 border-white/70 bg-white/30 px-5 py-4 md:px-6 md:py-5 text-white backdrop-blur-sm hover:bg-white/40"
-            variant="outline"
-          >
-            <Link href="/rsvp">RSVP</Link>
-          </Button>
         </div>
       </section>
 
