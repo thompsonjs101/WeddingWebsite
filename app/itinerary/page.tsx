@@ -121,7 +121,8 @@ export default function ItineraryPage() {
               </div>
               <div className="px-3 md:px-6">
                 <p className="text-muted-foreground mb-4 text-sm md:text-base">
-                 We are unsure of the day plan for this day but we will definitely meet whoever wishes for dinner at Mercado de San Ildefonso. It is a food market, which will allow for everyone to eat what they want and there are no reservations needed.  
+                 We are unsure of the day plan for this day but we will definitely meet whoever wishes for dinner at <a href= "https://mercadodesanmiguel.es/" className="text-rose-500 hover:underline"> Mercado de San Miguel </a>. It is a food market, which will allow for everyone to eat what they want and there are no reservations needed. 
+                 Although it does get quite busy so don't expect to find seating, however, all the food is designed to be eaten standing up and sharing with others so it should be a fun experience. After this we will probably go out for some drinks in the city.  
                 </p>
               </div>
             </div>
@@ -141,9 +142,8 @@ export default function ItineraryPage() {
               </div>
               <div className="px-3 md:px-6">
                 <p className="text-muted-foreground mb-4 text-sm md:text-base">
-                  In the day we will be heading to <a href= "https://www.parquewarner.com/en"> Parque Warner </a> to spend a day enjoying rides and other such activities before the evening trip to Toledo.
-                  Up to individuals if they would like to stay an extra night in Madrid and come into Toledo
-                  the day of the welcome party, or the hotel will open up a chance for room extensions 3 months before the date on a first come basis.
+                  In the day we will be heading to <a href= "https://www.parquewarner.com/en" className="text-rose-500 hover:underline"> Parque Warner </a> to spend a day enjoying rides and other such activities.
+                  We will be staying the night in Madrid and heading to Toledo the day of the welcome party.
                 </p>
               </div>
             </div>
@@ -184,14 +184,14 @@ export default function ItineraryPage() {
                     <li className="flex items-start gap-2">
                       <span className="text-rose-400">•</span>
                       <span>
-                        <strong>Dress Code:</strong> Smart Casual
+                        <strong>Dress Code:</strong> Whatever you feel best in
                       </span>
                     </li>
                     <li className="flex items-start gap-2">
                       <span className="text-rose-400">•</span>
                       <span>
-                        This will be a relaxed evening with Spanish tapas, drinks, and a chance to meet everyone before
-                        the wedding day
+                        This will be a relaxed evening with Spanish tapas, drinks, games and a chance to meet everyone before
+                        the wedding day.
                       </span>
                     </li>
                   </ul>
@@ -272,9 +272,7 @@ export default function ItineraryPage() {
               </div>
               <div className="px-3 md:px-6">
                 <p className="text-muted-foreground mb-4 text-sm md:text-base">
-                  Unfortunately the venue doesnt open up for bookings outside of our wedding date until 3 months before the date, 
-                  so hopefully we can grab an extension for one day to rest before moving on to a new city. 
-                  Currently this is to be planned, however there has been words of Barcelona or somewhere with a beach.
+                  Unfortunately the venue doesnt have any more rooms available for us to extend our stay, but if you want to stay an extra night in Toledo we will be staying at <a href= "https://www.booking.com/hotel/es/hostal-del-cardenal.en-gb.html?aid=898224&app_hotel_id=94419&checkin=2026-03-23&checkout=2026-03-24&from_sn=ios&group_adults=2&group_children=0&label=hotel_details-pcvPTql%401774220854-XVcD5qQ%401774220876&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA%2C&chal_t=1775486009668&force_referer=https%3A%2F%2Fl.facebook.com%2F" className="text-rose-500 hover:underline"> Hotel Hacienda del Cardenal. </a> After this day we will be heading off on our honeymoon.
                 </p>
               </div>
             </div>
