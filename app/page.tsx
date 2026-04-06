@@ -28,7 +28,7 @@ export default function Home() {
             <Link href="/toledo" className="text-sm font-medium text-rose-400">
               Toledo
             </Link>
-            <Link href="/info" className="text-sm font-medium hover:text-rose-400">
+            <Link href="/Info" className="text-sm font-medium hover:text-rose-400">
               Info
             </Link>
           </div>
@@ -153,20 +153,6 @@ export default function Home() {
               </div>
             </div>
           </div>
-
-          <div className="mt-10 md:mt-12 flex flex-col md:flex-row justify-center gap-4">
-            <Button asChild className="bg-rose-400 hover:bg-rose-500 w-full md:w-auto">
-              <Link href="/rsvp">RSVP Now</Link>
-            </Button>
-
-            <Button
-              asChild
-              variant="outline"
-              className="border-rose-400 text-rose-400 hover:bg-rose-50 w-full md:w-auto mt-3 md:mt-0"
-            >
-              <Link href="/itinerary">View Itinerary</Link>
-            </Button>
-          </div>
         </div>
       </section>
 
@@ -177,9 +163,7 @@ export default function Home() {
           <p className="mt-3 md:mt-4">June 22, 2026</p>
 
           <div className="mt-6 md:mt-8 flex flex-wrap justify-center gap-6 md:gap-8">
-            <Link href="/rsvp" className="hover:text-rose-400">
-              RSVP
-            </Link>
+
             <Link href="/travel" className="hover:text-rose-400">
               Travel
             </Link>

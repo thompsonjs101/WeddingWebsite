@@ -190,11 +190,11 @@ export default function TravelPage() {
           <p className="mt-4">June 22, 2026</p>
 
           <div className="mt-6 flex justify-center gap-6 flex-wrap">
-            <Link href="/rsvp">RSVP</Link>
             <Link href="/travel">Travel</Link>
             <Link href="/itinerary">Itinerary</Link>
             <Link href="/madrid">Madrid</Link>
             <Link href="/toledo">Toledo</Link>
+            <Link href="/Info">Info</Link>
           </div>
 
           <p className="mt-6 text-sm">
