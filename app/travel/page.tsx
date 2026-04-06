@@ -201,6 +201,7 @@ export default function TravelPage() {
               </div>
             </div>
           </div>
+        </section>
         
 
       {/* Footer */}
