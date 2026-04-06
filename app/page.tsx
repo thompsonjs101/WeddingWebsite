@@ -174,7 +174,7 @@ export default function Home() {
               className="mt-4 bg-[#1DB954] hover:bg-[#1ed760] text-white"
             >
               <a 
-                href="https://open.spotify.com/playlist/7h5dw0uBYO21sBqJ7E9sCU" 
+                href="https://open.spotify.com/playlist/7h5dw0uBYO21sBqJ7E9sCU?si=9495d2def5f04609&pt=cdb6d6f0d5098de5763c672945341e1a" 
                 target="_blank" 
                 rel="noopener noreferrer"
               >
