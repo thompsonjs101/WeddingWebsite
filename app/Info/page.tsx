@@ -100,11 +100,11 @@ export default function InfoPage() {
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-rose-400">•</span>
-                    <span>Photos welcome after dinner (around 11:00 PM)</span>
+                    <span>We will set up a POV that will be available from the 18th of June to the 23rd of June.</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-rose-400">•</span>
-                    <span>Share with #EmmaAndJoel2026</span>
+                    <span>There will be other things available, but you will just have to wait and see!</span>
                   </li>
                 </ul>
               </div>
