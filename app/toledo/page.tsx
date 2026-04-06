@@ -15,9 +15,6 @@ export default function ToledoPage() {
             <Link href="/" className="text-sm font-medium hover:text-rose-400">
               Home
             </Link>
-            <Link href="/rsvp" className="text-sm font-medium hover:text-rose-400">
-              RSVP
-            </Link>
             <Link href="/travel" className="text-sm font-medium hover:text-rose-400">
               Travel
             </Link>
