@@ -71,7 +71,7 @@ export default function Home() {
               Dear people (Joel is being difficult)
               <br></br>We are so excited to invite you to our wedding, and would be honored if you can make it. 
 
-              <br></br>Love
+              <br></br>With Love
               <br></br>Emma & Joel
             </p>
           </div>
