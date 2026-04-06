@@ -16,6 +16,9 @@ export default function RSVPPage() {
             <Link href="/" className="text-sm font-medium hover:text-rose-400">
               Home
             </Link>
+            <Link href="/Info" className="text-sm font-medium hover:text-rose-400">
+              Info
+            </Link>
             <Link href="/rsvp" className="text-sm font-medium text-rose-400">
               RSVP
             </Link>
@@ -30,9 +33,6 @@ export default function RSVPPage() {
             </Link>
             <Link href="/toledo" className="text-sm font-medium text-rose-400">
               Toledo
-            </Link>
-            <Link href="/Info" className="text-sm font-medium hover:text-rose-400">
-              Info
             </Link>
           </div>
         </div>
@@ -103,6 +103,9 @@ export default function RSVPPage() {
           <h2 className="font-serif text-2xl md:text-3xl">Emma & Joel</h2>
           <p className="mt-3 md:mt-4">June 22, 2026</p>
           <div className="mt-6 md:mt-8 flex flex-wrap justify-center gap-6 md:gap-8">
+            <Link href="/Info" className="hover:text-rose-400">
+              Info
+            </Link>
             <Link href="/travel" className="hover:text-rose-400">
               Travel
             </Link>
@@ -114,9 +117,6 @@ export default function RSVPPage() {
             </Link>
             <Link href="/toledo" className="hover:text-rose-400">
               Toledo
-            </Link>
-            <Link href="/Info" className="hover:text-rose-400">
-              Info
             </Link>
           </div>
           <p className="mt-6 md:mt-8 text-xs md:text-sm px-4">
