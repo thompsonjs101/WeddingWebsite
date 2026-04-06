@@ -154,6 +154,40 @@ export default function Home() {
             </div>
           </div>
         </div>
+<div className="mt-10 md:mt-12 flex flex-col items-center">
+            <div className="flex h-14 w-14 md:h-16 md:w-16 items-center justify-center rounded-full bg-rose-100">
+              <Music className="h-7 w-7 md:h-8 md:w-8 text-rose-400" />
+            </div>
+            <h3 className="mt-3 md:mt-4 font-serif text-lg md:text-xl">Help Us Build the Playlist</h3>
+            <p className="mt-2 text-muted-foreground text-sm md:text-base max-w-md">
+              Add your favorite songs to our wedding playlist and help us create the perfect soundtrack for our celebration!
+            </p>
+            <Button
+              asChild
+              className="mt-4 bg-[#1DB954] hover:bg-[#1ed760] text-white"
+            >
+              <a 
+                href="https://open.spotify.com/playlist/7h5dw0uBYO21sBqJ7E9sCU?si=9495d2def5f04609&pt=cdb6d6f0d5098de5763c672945341e1a" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                Add Songs on Spotify
+              </a>
+            </Button>
+          </div>
+          <div className="mt-10 md:mt-12 flex flex-col md:flex-row justify-center gap-4">
+            <Button asChild className="bg-rose-400 hover:bg-rose-500 w-full md:w-auto">
+              <Link href="/rsvp">RSVP Now</Link>
+            </Button>
+            <Button
+              asChild
+              variant="outline"
+              className="border-rose-400 text-rose-400 hover:bg-rose-50 w-full md:w-auto mt-3 md:mt-0"
+            >
+              <Link href="/itinerary">View Itinerary</Link>
+            </Button>
+          </div>
+        </div>
       </section>
 
       {/* Footer */}
