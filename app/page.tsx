@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button"
 
 export default function Home() {
   return (
+    <div>
       {/* Navigation */}
       <nav className="sticky top-0 z-50 border-b bg-white/90 backdrop-blur-sm">
         <div className="container mx-auto flex items-center justify-between py-3 md:py-4 px-4">
@@ -27,7 +28,7 @@ export default function Home() {
             <Link href="/toledo" className="text-sm font-medium text-rose-400">
               Toledo
             </Link>
-            <Link href="/Info" className="text-sm font-medium hover:text-rose-400">
+            <Link href="/info" className="text-sm font-medium hover:text-rose-400">
               Info
             </Link>
           </div>
@@ -37,14 +38,19 @@ export default function Home() {
       {/* Join Our Celebration */}
       <section className="py-12 md:py-20">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="font-serif text-2xl md:text-3xl lg:text-4xl mx-auto">Emma and Joel</h2>
+          <h2 className="font-serif text-2xl md:text-3xl lg:text-4xl mx-auto">
+            Emma and Joel
+          </h2>
           <div className="mx-auto mt-3 md:mt-4 h-0.5 w-16 bg-rose-300"></div>
+
           <div className="mx-auto mt-6 md:mt-8 max-w-2xl">
             <p className="text-muted-foreground text-sm md:text-base">
-             Toledo, Spain 
-             <br></br>22nd June 2026
+              Toledo, Spain
+              <br />
+              22nd June 2026
             </p>
           </div>
+
           <div className="mt-8 md:mt-12 grid grid-cols-1 gap-6 md:gap-8 md:grid-cols-3">
             <div className="flex flex-col items-center">
               <div className="relative h-56 md:h-64 w-full">
@@ -56,6 +62,7 @@ export default function Home() {
                 />
               </div>
             </div>
+
             <div className="flex flex-col items-center">
               <div className="relative h-56 md:h-64 w-full">
                 <Image
@@ -66,6 +73,7 @@ export default function Home() {
                 />
               </div>
             </div>
+
             <div className="flex flex-col items-center">
               <div className="relative h-56 md:h-64 w-full">
                 <Image
@@ -83,50 +91,74 @@ export default function Home() {
       {/* Wedding Details */}
       <section className="py-12 md:py-20">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="font-serif text-2xl md:text-3xl lg:text-4xl mx-auto">Wedding Details</h2>
+          <h2 className="font-serif text-2xl md:text-3xl lg:text-4xl mx-auto">
+            Wedding Details
+          </h2>
           <div className="mx-auto mt-3 md:mt-4 h-0.5 w-16 bg-rose-300"></div>
+
           <div className="mt-8 md:mt-12 grid grid-cols-1 gap-8 md:grid-cols-3">
+            {/* When */}
             <div className="flex flex-col items-center mb-6 md:mb-0">
               <div className="flex h-14 w-14 md:h-16 md:w-16 items-center justify-center rounded-full bg-rose-100">
                 <Calendar className="h-7 w-7 md:h-8 md:w-8 text-rose-400" />
               </div>
               <h3 className="mt-3 md:mt-4 font-serif text-lg md:text-xl">When</h3>
               <div className="mt-2">
-                <p className="text-muted-foreground text-sm md:text-base">June 22, 2026</p>
-                <p className="text-muted-foreground text-sm md:text-base">Ceremony: 6:00 PM</p>
-                <p className="text-muted-foreground text-sm md:text-base">Reception: 8:00 PM</p>
+                <p className="text-muted-foreground text-sm md:text-base">
+                  June 22, 2026
+                </p>
+                <p className="text-muted-foreground text-sm md:text-base">
+                  Ceremony: 6:00 PM
+                </p>
+                <p className="text-muted-foreground text-sm md:text-base">
+                  Reception: 8:00 PM
+                </p>
               </div>
             </div>
+
+            {/* Where */}
             <div className="flex flex-col items-center mb-6 md:mb-0">
               <div className="flex h-14 w-14 md:h-16 md:w-16 items-center justify-center rounded-full bg-rose-100">
                 <MapPin className="h-7 w-7 md:h-8 md:w-8 text-rose-400" />
               </div>
               <h3 className="mt-3 md:mt-4 font-serif text-lg md:text-xl">Where</h3>
               <div className="mt-2">
-                <p className="text-muted-foreground text-sm md:text-base">Cigarral de las Mercedes</p>
-                <p className="text-muted-foreground text-sm md:text-base">Toledo, Spain</p>
+                <p className="text-muted-foreground text-sm md:text-base">
+                  Cigarral de las Mercedes
+                </p>
+                <p className="text-muted-foreground text-sm md:text-base">
+                  Toledo, Spain
+                </p>
                 <p className="text-muted-foreground text-sm md:text-base">
                   A beautiful historic venue with stunning views
                 </p>
               </div>
             </div>
+
+            {/* Dress Code */}
             <div className="flex flex-col items-center">
               <div className="flex h-14 w-14 md:h-16 md:w-16 items-center justify-center rounded-full bg-rose-100">
                 <Heart className="h-7 w-7 md:h-8 md:w-8 text-rose-400" />
               </div>
-              <h3 className="mt-3 md:mt-4 font-serif text-lg md:text-xl">Dress Code</h3>
+              <h3 className="mt-3 md:mt-4 font-serif text-lg md:text-xl">
+                Dress Code
+              </h3>
               <div className="mt-2">
                 <p className="text-muted-foreground text-sm md:text-base">
                   Whatever you feel the most handsome / beautiful in
                 </p>
-                <p className="text-muted-foreground text-sm md:text-base">(we want you to shine)</p>
+                <p className="text-muted-foreground text-sm md:text-base">
+                  (we want you to shine)
+                </p>
               </div>
             </div>
           </div>
+
           <div className="mt-10 md:mt-12 flex flex-col md:flex-row justify-center gap-4">
             <Button asChild className="bg-rose-400 hover:bg-rose-500 w-full md:w-auto">
               <Link href="/rsvp">RSVP Now</Link>
             </Button>
+
             <Button
               asChild
               variant="outline"
@@ -143,6 +175,7 @@ export default function Home() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="font-serif text-2xl md:text-3xl">Emma & Joel</h2>
           <p className="mt-3 md:mt-4">June 22, 2026</p>
+
           <div className="mt-6 md:mt-8 flex flex-wrap justify-center gap-6 md:gap-8">
             <Link href="/rsvp" className="hover:text-rose-400">
               RSVP
@@ -160,9 +193,13 @@ export default function Home() {
               Toledo
             </Link>
           </div>
+
           <p className="mt-6 md:mt-8 text-xs md:text-sm px-4">
             For questions, please contact us at{" "}
-            <a href="mailto:weddingjoelandemma@gmail.com" className="underline hover:text-rose-400">
+            <a
+              href="mailto:weddingjoelandemma@gmail.com"
+              className="underline hover:text-rose-400"
+            >
               weddingjoelandemma@gmail.com
             </a>
           </p>
