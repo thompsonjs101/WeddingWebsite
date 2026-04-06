@@ -30,6 +30,9 @@ export default function MadridPage() {
             <Link href="/toledo" className="text-sm font-medium hover:text-rose-400">
               Toledo
             </Link>
+            <Link href="/info" className="text-sm font-medium hover:text-rose-400">
+              Info
+            </Link>
           </div>
         </div>
       </nav>
