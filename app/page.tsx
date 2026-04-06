@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
-import { Calendar, MapPin, Heart } from "lucide-react"
+import { Calendar, MapPin, Heart, Music } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export default function Home() {
@@ -35,7 +35,7 @@ export default function Home() {
         </div>
       </nav>
 
-      {/* Join Our Celebration */}
+      {/* Hero Section */}
       <section className="py-12 md:py-20">
         <div className="container mx-auto px-4 text-center">
           <h2 className="font-serif text-2xl md:text-3xl lg:text-4xl mx-auto">
@@ -51,39 +51,23 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="mt-8 md:mt-12 grid grid-cols-1 gap-6 md:gap-8 md:grid-cols-3">
-            <div className="flex flex-col items-center">
-              <div className="relative h-56 md:h-64 w-full">
-                <Image
-                  src="/couple-formal-event.png"
-                  alt="Emma and Joel at a formal event"
-                  fill
-                  className="object-contain transition-transform duration-300 hover:scale-105"
-                />
+          <div className="mt-8 md:mt-12 grid grid-cols-1 gap-6 md:grid-cols-3">
+            {[
+              { src: "/couple-formal-event.png", alt: "Formal event" },
+              { src: "/couple-train-tracks.png", alt: "Train tracks" },
+              { src: "/couple-sunset.png", alt: "Sunset" },
+            ].map((img, i) => (
+              <div key={i} className="flex flex-col items-center">
+                <div className="relative h-56 md:h-64 w-full">
+                  <Image
+                    src={img.src}
+                    alt={img.alt}
+                    fill
+                    className="object-contain transition-transform duration-300 hover:scale-105"
+                  />
+                </div>
               </div>
-            </div>
-
-            <div className="flex flex-col items-center">
-              <div className="relative h-56 md:h-64 w-full">
-                <Image
-                  src="/couple-train-tracks.png"
-                  alt="Emma and Joel on train tracks"
-                  fill
-                  className="object-contain transition-transform duration-300 hover:scale-105"
-                />
-              </div>
-            </div>
-
-            <div className="flex flex-col items-center">
-              <div className="relative h-56 md:h-64 w-full">
-                <Image
-                  src="/couple-sunset.png"
-                  alt="Emma and Joel at sunset"
-                  fill
-                  className="object-contain transition-transform duration-300 hover:scale-105"
-                />
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </section>
@@ -91,98 +75,88 @@ export default function Home() {
       {/* Wedding Details */}
       <section className="py-12 md:py-20">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="font-serif text-2xl md:text-3xl lg:text-4xl mx-auto">
+          <h2 className="font-serif text-2xl md:text-3xl lg:text-4xl">
             Wedding Details
           </h2>
           <div className="mx-auto mt-3 md:mt-4 h-0.5 w-16 bg-rose-300"></div>
 
           <div className="mt-8 md:mt-12 grid grid-cols-1 gap-8 md:grid-cols-3">
             {/* When */}
-            <div className="flex flex-col items-center mb-6 md:mb-0">
-              <div className="flex h-14 w-14 md:h-16 md:w-16 items-center justify-center rounded-full bg-rose-100">
-                <Calendar className="h-7 w-7 md:h-8 md:w-8 text-rose-400" />
+            <div className="flex flex-col items-center">
+              <div className="flex h-14 w-14 items-center justify-center rounded-full bg-rose-100">
+                <Calendar className="h-7 w-7 text-rose-400" />
               </div>
-              <h3 className="mt-3 md:mt-4 font-serif text-lg md:text-xl">When</h3>
-              <div className="mt-2">
-                <p className="text-muted-foreground text-sm md:text-base">
-                  June 22, 2026
-                </p>
-                <p className="text-muted-foreground text-sm md:text-base">
-                  Ceremony: 6:00 PM
-                </p>
-                <p className="text-muted-foreground text-sm md:text-base">
-                  Reception: 8:00 PM
-                </p>
+              <h3 className="mt-4 font-serif text-lg">When</h3>
+              <div className="mt-2 text-sm text-muted-foreground">
+                <p>June 22, 2026</p>
+                <p>Ceremony: 6:00 PM</p>
+                <p>Reception: 8:00 PM</p>
               </div>
             </div>
 
             {/* Where */}
-            <div className="flex flex-col items-center mb-6 md:mb-0">
-              <div className="flex h-14 w-14 md:h-16 md:w-16 items-center justify-center rounded-full bg-rose-100">
-                <MapPin className="h-7 w-7 md:h-8 md:w-8 text-rose-400" />
+            <div className="flex flex-col items-center">
+              <div className="flex h-14 w-14 items-center justify-center rounded-full bg-rose-100">
+                <MapPin className="h-7 w-7 text-rose-400" />
               </div>
-              <h3 className="mt-3 md:mt-4 font-serif text-lg md:text-xl">Where</h3>
-              <div className="mt-2">
-                <p className="text-muted-foreground text-sm md:text-base">
-                  Cigarral de las Mercedes
-                </p>
-                <p className="text-muted-foreground text-sm md:text-base">
-                  Toledo, Spain
-                </p>
-                <p className="text-muted-foreground text-sm md:text-base">
-                  A beautiful historic venue with stunning views
-                </p>
+              <h3 className="mt-4 font-serif text-lg">Where</h3>
+              <div className="mt-2 text-sm text-muted-foreground">
+                <p>Cigarral de las Mercedes</p>
+                <p>Toledo, Spain</p>
+                <p>Beautiful historic venue with stunning views</p>
               </div>
             </div>
 
             {/* Dress Code */}
             <div className="flex flex-col items-center">
-              <div className="flex h-14 w-14 md:h-16 md:w-16 items-center justify-center rounded-full bg-rose-100">
-                <Heart className="h-7 w-7 md:h-8 md:w-8 text-rose-400" />
+              <div className="flex h-14 w-14 items-center justify-center rounded-full bg-rose-100">
+                <Heart className="h-7 w-7 text-rose-400" />
               </div>
-              <h3 className="mt-3 md:mt-4 font-serif text-lg md:text-xl">
-                Dress Code
-              </h3>
-              <div className="mt-2">
-                <p className="text-muted-foreground text-sm md:text-base">
-                  Whatever you feel the most handsome / beautiful in
-                </p>
-                <p className="text-muted-foreground text-sm md:text-base">
-                  (we want you to shine)
-                </p>
+              <h3 className="mt-4 font-serif text-lg">Dress Code</h3>
+              <div className="mt-2 text-sm text-muted-foreground">
+                <p>Wear what makes you feel amazing</p>
+                <p>(we want you to shine)</p>
               </div>
             </div>
           </div>
-        </div>
-<div className="mt-10 md:mt-12 flex flex-col items-center">
-            <div className="flex h-14 w-14 md:h-16 md:w-16 items-center justify-center rounded-full bg-rose-100">
-              <Music className="h-7 w-7 md:h-8 md:w-8 text-rose-400" />
+
+          {/* Playlist */}
+          <div className="mt-12 flex flex-col items-center">
+            <div className="flex h-14 w-14 items-center justify-center rounded-full bg-rose-100">
+              <Music className="h-7 w-7 text-rose-400" />
             </div>
-            <h3 className="mt-3 md:mt-4 font-serif text-lg md:text-xl">Help Us Build the Playlist</h3>
-            <p className="mt-2 text-muted-foreground text-sm md:text-base max-w-md">
-              Add your favorite songs to our wedding playlist and help us create the perfect soundtrack for our celebration!
+            <h3 className="mt-4 font-serif text-lg">
+              Help Us Build the Playlist
+            </h3>
+            <p className="mt-2 text-sm text-muted-foreground max-w-md">
+              Add your favorite songs to our wedding playlist and help us create
+              the perfect soundtrack!
             </p>
+
             <Button
               asChild
               className="mt-4 bg-[#1DB954] hover:bg-[#1ed760] text-white"
             >
-              <a 
-                href="https://open.spotify.com/playlist/7h5dw0uBYO21sBqJ7E9sCU?si=9495d2def5f04609&pt=cdb6d6f0d5098de5763c672945341e1a" 
-                target="_blank" 
+              <a
+                href="https://open.spotify.com/playlist/7h5dw0uBYO21sBqJ7E9sCU"
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 Add Songs on Spotify
               </a>
             </Button>
           </div>
-          <div className="mt-10 md:mt-12 flex flex-col md:flex-row justify-center gap-4">
-            <Button asChild className="bg-rose-400 hover:bg-rose-500 w-full md:w-auto">
+
+          {/* Buttons */}
+          <div className="mt-12 flex flex-col md:flex-row justify-center gap-4">
+            <Button asChild className="bg-rose-400 hover:bg-rose-500">
               <Link href="/rsvp">RSVP Now</Link>
             </Button>
+
             <Button
               asChild
               variant="outline"
-              className="border-rose-400 text-rose-400 hover:bg-rose-50 w-full md:w-auto mt-3 md:mt-0"
+              className="border-rose-400 text-rose-400 hover:bg-rose-50"
             >
               <Link href="/itinerary">View Itinerary</Link>
             </Button>
@@ -191,31 +165,21 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="py-10 md:py-12 text-gray-800">
+      <footer className="py-10 text-gray-800">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="font-serif text-2xl md:text-3xl">Emma & Joel</h2>
-          <p className="mt-3 md:mt-4">June 22, 2026</p>
+          <h2 className="font-serif text-2xl">Emma & Joel</h2>
+          <p className="mt-4">June 22, 2026</p>
 
-          <div className="mt-6 md:mt-8 flex flex-wrap justify-center gap-6 md:gap-8">
-            <Link href="/Info" className="hover:text-rose-400">
-              Info
-            </Link>
-            <Link href="/travel" className="hover:text-rose-400">
-              Travel
-            </Link>
-            <Link href="/itinerary" className="hover:text-rose-400">
-              Itinerary
-            </Link>
-            <Link href="/madrid" className="hover:text-rose-400">
-              Madrid
-            </Link>
-            <Link href="/toledo" className="hover:text-rose-400">
-              Toledo
-            </Link>
+          <div className="mt-6 flex flex-wrap justify-center gap-6">
+            <Link href="/Info">Info</Link>
+            <Link href="/travel">Travel</Link>
+            <Link href="/itinerary">Itinerary</Link>
+            <Link href="/madrid">Madrid</Link>
+            <Link href="/toledo">Toledo</Link>
           </div>
 
-          <p className="mt-6 md:mt-8 text-xs md:text-sm px-4">
-            For questions, please contact us at{" "}
+          <p className="mt-6 text-sm">
+            For questions, contact{" "}
             <a
               href="mailto:weddingjoelandemma@gmail.com"
               className="underline hover:text-rose-400"
