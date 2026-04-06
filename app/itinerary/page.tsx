@@ -101,7 +101,7 @@ export default function ItineraryPage() {
                   Joel will be having his bachelor party with his friends in Madrid. Emma will be hoping to hang out
                   with the partners during this time. 
                   <br></br>
-                  Please contact Max for more information about the Bachelor party and Lina for information on what the girls will be doing.
+                  Please contact <a href= "https://www.facebook.com/vegard.bjornberg" className="text-rose-500 hover:underline"> Vegard </a> for more information about the Bachelor party and <a href= "https://www.facebook.com/maddiemeee" className="text-rose-500 hover:underline"> Madeline </a> for information on what the girls will be doing.
                 </p>
               </div>
             </div>
