@@ -186,7 +186,7 @@ export default function InfoPage() {
                     </div>
                   </div>
                   <p className="text-muted-foreground mb-3 text-sm md:text-base">
-                    If you would like to make a speech at the wedding, please contact Emma to organise your slot.
+                    If you would like to make a speech at the wedding, please contact <a href= "https://www.facebook.com/emma.bussell.37" className="text-rose-500 hover:underline"> Emma </a> to organise your slot.
                   </p>
                   <ul className="space-y-1 md:space-y-2 text-muted-foreground text-sm md:text-base">
                     <li className="flex items-start gap-2">
