@@ -172,6 +172,35 @@ export default function InfoPage() {
                   </li>
                 </ul>
               </div>
+
+           <div className="p-3 md:p-4">
+                <div className="flex flex-row items-center gap-3 md:gap-4 mb-3 md:mb-4">
+                  <div className="flex h-10 w-10 md:h-12 md:w-12 items-center justify-center rounded-full bg-rose-100">
+                    <Mic className="h-5 w-5 md:h-6 md:w-6 text-rose-400" />
+                  </div>
+                  <div>
+                    <h3 className="font-medium text-base md:text-lg">Speeches</h3>
+                    <p className="text-xs md:text-sm text-muted-foreground">Toastmaster: Emma</p>
+                  </div>
+                </div>
+                <p className="text-muted-foreground mb-3 text-sm md:text-base">
+                  If you would like to make a speech at the wedding, please contact <a href= "https://www.facebook.com/emma.bussell.37" className="text-rose-500 hover:underline"> Emma </a> to organise your slot.
+                </p>
+                <ul className="space-y-1 md:space-y-2 text-muted-foreground text-sm md:text-base">
+                  <li className="flex items-start gap-2">
+                    <span className="text-rose-400">•</span>
+                    <span><strong>2 minutes maximum</strong> per speech</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-rose-400">•</span>
+                    <span>Every minute over requires <strong>100 euros</strong> placed on the table</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-rose-400">•</span>
+                    <span>Emma will collect any overdue fees</span>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
