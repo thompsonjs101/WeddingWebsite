@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Sun, Camera, Info, Heart } from "lucide-react"
+import { Sun, Camera, Info, Heart, Mic } from "lucide-react"
 
 export default function InfoPage() {
   return (
@@ -14,7 +14,7 @@ export default function InfoPage() {
             <Link href="/" className="text-sm font-medium hover:text-rose-400">
               Home
             </Link>
-            <Link href="/Info" className="text-sm font-medium text-rose-400">
+            <Link href="/info" className="text-sm font-medium text-rose-400">
               Info
             </Link>
             <Link href="/travel" className="text-sm font-medium hover:text-rose-400">
@@ -26,7 +26,7 @@ export default function InfoPage() {
             <Link href="/madrid" className="text-sm font-medium hover:text-rose-400">
               Madrid
             </Link>
-            <Link href="/toledo" className="text-sm font-medium text-rose-400">
+            <Link href="/toledo" className="text-sm font-medium hover:text-rose-400">
               Toledo
             </Link>
           </div>
@@ -36,7 +36,9 @@ export default function InfoPage() {
       {/* Additional Information */}
       <section className="flex-1 py-10 md:py-20">
         <div className="container mx-auto px-4">
-          <h1 className="text-center font-serif text-2xl md:text-3xl lg:text-4xl mx-auto">Additional Information</h1>
+          <h1 className="text-center font-serif text-2xl md:text-3xl lg:text-4xl mx-auto">
+            Additional Information
+          </h1>
           <div className="mx-auto mt-3 md:mt-4 h-0.5 w-16 bg-rose-300"></div>
           <p className="mx-auto mt-5 md:mt-6 max-w-2xl text-center text-muted-foreground text-sm md:text-base">
             Everything else you need to know for our wedding celebration.
@@ -44,8 +46,10 @@ export default function InfoPage() {
 
           <div className="mx-auto mt-10 md:mt-16 max-w-4xl">
             <div className="grid gap-6 md:gap-8 md:grid-cols-2 lg:grid-cols-4">
+
+              {/* Weather */}
               <div className="p-3 md:p-4">
-                <div className="flex flex-row items-center gap-3 md:gap-4 mb-3 md:mb-4">
+                <div className="flex items-center gap-3 md:gap-4 mb-3 md:mb-4">
                   <div className="flex h-10 w-10 md:h-12 md:w-12 items-center justify-center rounded-full bg-rose-100">
                     <Sun className="h-5 w-5 md:h-6 md:w-6 text-rose-400" />
                   </div>
@@ -73,8 +77,9 @@ export default function InfoPage() {
                 </ul>
               </div>
 
+              {/* Photography */}
               <div className="p-3 md:p-4">
-                <div className="flex flex-row items-center gap-3 md:gap-4 mb-3 md:mb-4">
+                <div className="flex items-center gap-3 md:gap-4 mb-3 md:mb-4">
                   <div className="flex h-10 w-10 md:h-12 md:w-12 items-center justify-center rounded-full bg-rose-100">
                     <Camera className="h-5 w-5 md:h-6 md:w-6 text-rose-400" />
                   </div>
@@ -84,7 +89,7 @@ export default function InfoPage() {
                   </div>
                 </div>
                 <p className="text-muted-foreground mb-3 text-sm md:text-base">
-                  We kindly ask that you respect our photography guidelines to ensure everyone can enjoy the day.
+                  We kindly ask that you respect our photography guidelines.
                 </p>
                 <ul className="space-y-1 md:space-y-2 text-muted-foreground text-sm md:text-base">
                   <li className="flex items-start gap-2">
@@ -93,24 +98,22 @@ export default function InfoPage() {
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-rose-400">•</span>
-                    <span>
-                      Please ensure your own photos don't interrupt the chance of having the professional take the
-                      shot
-                    </span>
+                    <span>Please ensure your photos don’t interfere with the professional photographer</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-rose-400">•</span>
-                    <span>We will set up a POV that will be available from the 18th of June to the 23rd of June.</span>
+                    <span>Shared POV will be available from June 18–23</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-rose-400">•</span>
-                    <span>There will be other things available, but you will just have to wait and see!</span>
+                    <span>More surprises to come 👀</span>
                   </li>
                 </ul>
               </div>
 
+              {/* Special Needs */}
               <div className="p-3 md:p-4">
-                <div className="flex flex-row items-center gap-3 md:gap-4 mb-3 md:mb-4">
+                <div className="flex items-center gap-3 md:gap-4 mb-3 md:mb-4">
                   <div className="flex h-10 w-10 md:h-12 md:w-12 items-center justify-center rounded-full bg-rose-100">
                     <Info className="h-5 w-5 md:h-6 md:w-6 text-rose-400" />
                   </div>
@@ -120,7 +123,7 @@ export default function InfoPage() {
                   </div>
                 </div>
                 <p className="text-muted-foreground mb-3 text-sm md:text-base">
-                  If you have any dietary restrictions or special needs, please let us know when you RSVP.
+                  Please let us know about any dietary restrictions or special needs when you RSVP.
                 </p>
                 <ul className="space-y-1 md:space-y-2 text-muted-foreground text-sm md:text-base">
                   <li className="flex items-start gap-2">
@@ -138,8 +141,9 @@ export default function InfoPage() {
                 </ul>
               </div>
 
+              {/* Babysitting */}
               <div className="p-3 md:p-4">
-                <div className="flex flex-row items-center gap-3 md:gap-4 mb-3 md:mb-4">
+                <div className="flex items-center gap-3 md:gap-4 mb-3 md:mb-4">
                   <div className="flex h-10 w-10 md:h-12 md:w-12 items-center justify-center rounded-full bg-rose-100">
                     <Heart className="h-5 w-5 md:h-6 md:w-6 text-rose-400" />
                   </div>
@@ -149,13 +153,12 @@ export default function InfoPage() {
                   </div>
                 </div>
                 <p className="text-muted-foreground mb-3 text-sm md:text-base">
-                  The hotel offers babysitting services for families attending the wedding. Please contact them
-                  directly to arrange.
+                  Babysitting services are available—please contact the hotel directly.
                 </p>
                 <ul className="space-y-1 md:space-y-2 text-muted-foreground text-sm md:text-base">
                   <li className="flex items-start gap-2">
                     <span className="text-rose-400">•</span>
-                    <span>Professional childcare services available</span>
+                    <span>Professional childcare available</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-rose-400">•</span>
@@ -164,7 +167,6 @@ export default function InfoPage() {
                   <li className="flex items-start gap-2">
                     <span className="text-rose-400">•</span>
                     <span>
-                      Contact:{" "}
                       <a href="mailto:hotel@cigarraldelasmercedes.com" className="text-rose-500 hover:underline">
                         hotel@cigarraldelasmercedes.com
                       </a>
@@ -173,8 +175,9 @@ export default function InfoPage() {
                 </ul>
               </div>
 
-           <div className="p-3 md:p-4">
-                <div className="flex flex-row items-center gap-3 md:gap-4 mb-3 md:mb-4">
+              {/* Speeches */}
+              <div className="p-3 md:p-4">
+                <div className="flex items-center gap-3 md:gap-4 mb-3 md:mb-4">
                   <div className="flex h-10 w-10 md:h-12 md:w-12 items-center justify-center rounded-full bg-rose-100">
                     <Mic className="h-5 w-5 md:h-6 md:w-6 text-rose-400" />
                   </div>
@@ -184,23 +187,32 @@ export default function InfoPage() {
                   </div>
                 </div>
                 <p className="text-muted-foreground mb-3 text-sm md:text-base">
-                  If you would like to make a speech during the dinner, please contact <a href= "https://www.facebook.com/emma.bussell.37" className="text-rose-500 hover:underline"> Emma </a> to organise your slot.
+                  If you’d like to give a speech, please contact{" "}
+                  <a
+                    href="https://www.facebook.com/emma.bussell.37"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-rose-500 hover:underline"
+                  >
+                    Emma
+                  </a>.
                 </p>
                 <ul className="space-y-1 md:space-y-2 text-muted-foreground text-sm md:text-base">
                   <li className="flex items-start gap-2">
                     <span className="text-rose-400">•</span>
-                    <span><strong>2 minutes maximum</strong> per speech</span>
+                    <span><strong>2 minutes max</strong> per speech</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-rose-400">•</span>
-                    <span>Every minute over requires <strong>100 euros</strong> placed on the table, as we want the night to flow well.</span>
+                    <span>Extra time costs <strong>€100 per minute</strong></span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-rose-400">•</span>
-                    <span>Emma will collect any overdue fees</span>
+                    <span>Emma will collect any overdue fees 😄</span>
                   </li>
                 </ul>
               </div>
+
             </div>
           </div>
         </div>
@@ -212,15 +224,9 @@ export default function InfoPage() {
           <h2 className="font-serif text-2xl md:text-3xl">Emma & Joel</h2>
           <p className="mt-3 md:mt-4">June 22, 2026</p>
           <div className="mt-6 md:mt-8 flex flex-wrap justify-center gap-6 md:gap-8">
-            <Link href="/info" className="hover:text-rose-400">
-              Info
-            </Link>
-            <Link href="/travel" className="hover:text-rose-400">
-              Travel
-            </Link>
-            <Link href="/itinerary" className="hover:text-rose-400">
-              Itinerary
-            </Link>
+            <Link href="/info" className="hover:text-rose-400">Info</Link>
+            <Link href="/travel" className="hover:text-rose-400">Travel</Link>
+            <Link href="/itinerary" className="hover:text-rose-400">Itinerary</Link>
           </div>
           <p className="mt-6 md:mt-8 text-xs md:text-sm px-4">
             For questions, please contact us at{" "}
