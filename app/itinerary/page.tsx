@@ -101,7 +101,7 @@ export default function ItineraryPage() {
                   Joel will be having his bachelor party with his friends in Madrid. Emma will be hoping to hang out
                   with the partners during this time. 
                   <br></br>
-                  Please contact <a href= "https://www.facebook.com/vegard.bjornberg" className="text-rose-500 hover:underline"> Vegard </a> for more information about the Bachelor party and <a href= "https://www.facebook.com/maddiemeee" className="text-rose-500 hover:underline"> Madeline </a> for information on what the girls will be doing.
+                  Please contact <a href= "https://www.facebook.com/vegard.bjornberg" className="text-rose-500 hover:underline"> Vegard </a> for more information about the Bachelor party and <a href= "https://www.facebook.com/maddiemeee" className="text-rose-500 hover:underline"> Madeline </a> if you wish to know the plan and join in on what the girls will be doing.
                 </p>
               </div>
             </div>
@@ -121,7 +121,7 @@ export default function ItineraryPage() {
               </div>
               <div className="px-3 md:px-6">
                 <p className="text-muted-foreground mb-4 text-sm md:text-base">
-                 We are unsure of the day plan for this day but we will definitely meet whoever wishes for dinner at <a href= "https://mercadodesanmiguel.es/" className="text-rose-500 hover:underline"> Mercado de San Miguel </a>. It is a food market, which will allow for everyone to eat what they want and there are no reservations needed. 
+                 We are unsure of the plan for this day but we will definitely meet whoever wishes for dinner at <a href= "https://mercadodesanmiguel.es/" className="text-rose-500 hover:underline"> Mercado de San Miguel </a>. It is a food market, which will allow for everyone to eat what they want and there are no reservations needed. 
                  Although it does get quite busy so don't expect to find seating, however, all the food is designed to be eaten standing up and sharing with others so it should be a fun experience. After this we will probably go out for some drinks in the city.  
                 </p>
               </div>
@@ -218,42 +218,48 @@ export default function ItineraryPage() {
               </div>
               <div className="px-3 md:px-6">
                 <p className="text-muted-foreground mb-4 text-sm md:text-base">
-                  Our wedding day! Here's the schedule for our celebration at Cigarral de las Mercedes:
+                  Our wedding day! Once again the dress code is just whatever you feel best in. I will make note that the bridesmaids will be wearing light green dresses. Here's the schedule for our celebration at Cigarral de las Mercedes:
                 </p>
-                <ul className="space-y-3 text-muted-foreground text-sm md:text-base">
-                  <li className="flex items-start gap-2">
-                    <span className="text-rose-400 font-medium">18:00</span>
-                    <div>
-                      <span className="font-medium">Ceremony</span>
-                      <p className="text-xs md:text-sm">Location: Mirador</p>
-                      <p className="text-xs md:text-sm">Please arrive 15-30 minutes early to be seated</p>
-                    </div>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-rose-400 font-medium">19:00</span>
-                    <div>
-                      <span className="font-medium">Appetizers & Cocktail Hour</span>
-                      <p className="text-xs md:text-sm">Location: Fuente</p>
-                      <p className="text-xs md:text-sm">Enjoy drinks and appetizers while we take photos</p>
-                    </div>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-rose-400 font-medium">20:30</span>
-                    <div>
-                      <span className="font-medium">Dinner Reception</span>
-                      <p className="text-xs md:text-sm">Location: Mirador</p>
-                      <p className="text-xs md:text-sm">Formal dinner, toasts, and celebrations</p>
-                    </div>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-rose-400 font-medium">22:00</span>
-                    <div>
-                      <span className="font-medium">Dancing & Open Bar</span>
-                      <p className="text-xs md:text-sm">Location: Casona</p>
-                      <p className="text-xs md:text-sm">Party continues into the night</p>
-                    </div>
-                  </li>
-                </ul>
+                <div className="bg-rose-50 p-3 md:p-4 mb-4">
+                  <h4 className="font-medium text-rose-700 text-sm md:text-base">Wedding Day Schedule</h4>
+                  <ul className="mt-2 space-y-2 md:space-y-3 text-muted-foreground text-xs md:text-sm">
+                    <li className="flex items-start gap-2">
+                      <span className="text-rose-400">•</span>
+                      <span>
+                        <strong>18:00 - Ceremony</strong>
+                        <br />Location: Mirador
+                        <br />Please arrive 15-30 minutes early to be seated
+                      </span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-rose-400">•</span>
+                      <span>
+                        <strong>19:00 - Appetizers & Cocktail Hour</strong>
+                        <br />Location: Fuente
+                        <br />Enjoy drinks and appetizers while we take photos
+                      </span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-rose-400">•</span>
+                      <span>
+                        <strong>20:30 - Dinner Reception</strong>
+                        <br />Location: Mirador
+                        <br />Formal dinner, toasts, and celebrations
+                      </span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-rose-400">•</span>
+                      <span>
+                        <strong>22:00 - Dancing & Open Bar</strong>
+                        <br />Location: Casona
+                        <br />Party continues into the night
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+                <p className="text-muted-foreground text-sm md:text-base">
+                  We can't wait to celebrate with you on our special day!
+                </p>
               </div>
             </div>
 

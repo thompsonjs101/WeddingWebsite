@@ -141,7 +141,7 @@ export default function TravelPage() {
                       </h4>
 
                       <p className="text-muted-foreground mb-4 text-sm">
-                        Rooms are available on a first-come basis with a discounted rate for guests.
+                        Rooms are currently fully booked outside of one Villa, however if you have missed out on a room and have decided you want one then please reach out to Emma or Joel and we may be able to accommodate you.
                       </p>
 
                       <div className="bg-rose-50 p-4 rounded-md">
