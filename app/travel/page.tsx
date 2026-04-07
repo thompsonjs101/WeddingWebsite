@@ -55,7 +55,7 @@ export default function TravelPage() {
                   </div>
                 </div>
                 <p className="text-muted-foreground text-sm">
-                  The closest airport to Toledo is Madrid.
+                  The closest airport to Toledo is Madrid (MAD).
                 </p>
               </div>
 
