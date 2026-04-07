@@ -209,40 +209,46 @@ export default function ItineraryPage() {
                 <p className="text-muted-foreground mb-4 text-sm md:text-base">
                   Our wedding day! Here's the schedule for our celebration at Cigarral de las Mercedes:
                 </p>
-                <ul className="space-y-3 text-muted-foreground text-sm md:text-base">
-                  <li className="flex items-start gap-2">
-                    <span className="text-rose-400 font-medium">18:00</span>
-                    <div>
-                      <span className="font-medium">Ceremony</span>
-                      <p className="text-xs md:text-sm">Location: Mirador</p>
-                      <p className="text-xs md:text-sm">Please arrive 15-30 minutes early to be seated</p>
-                    </div>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-rose-400 font-medium">19:00</span>
-                    <div>
-                      <span className="font-medium">Appetizers & Cocktail Hour</span>
-                      <p className="text-xs md:text-sm">Location: Fuente</p>
-                      <p className="text-xs md:text-sm">Enjoy drinks and appetizers while we take photos</p>
-                    </div>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-rose-400 font-medium">20:00</span>
-                    <div>
-                      <span className="font-medium">Dinner Reception</span>
-                      <p className="text-xs md:text-sm">Location: Mirador</p>
-                      <p className="text-xs md:text-sm">Formal dinner, toasts, and celebrations</p>
-                    </div>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-rose-400 font-medium">22:00</span>
-                    <div>
-                      <span className="font-medium">Dancing & Open Bar</span>
-                      <p className="text-xs md:text-sm">Location: Casona</p>
-                      <p className="text-xs md:text-sm">Party continues into the night</p>
-                    </div>
-                  </li>
-                </ul>
+                <div className="bg-rose-50 p-3 md:p-4 mb-4">
+                  <h4 className="font-medium text-rose-700 text-sm md:text-base">Wedding Day Schedule</h4>
+                  <ul className="mt-2 space-y-2 md:space-y-3 text-muted-foreground text-xs md:text-sm">
+                    <li className="flex items-start gap-2">
+                      <span className="text-rose-400">•</span>
+                      <span>
+                        <strong>18:00 - Ceremony</strong>
+                        <br />Location: Mirador
+                        <br />Please arrive 15-30 minutes early to be seated
+                      </span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-rose-400">•</span>
+                      <span>
+                        <strong>19:00 - Appetizers & Cocktail Hour</strong>
+                        <br />Location: Fuente
+                        <br />Enjoy drinks and appetizers while we take photos
+                      </span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-rose-400">•</span>
+                      <span>
+                        <strong>20:00 - Dinner Reception</strong>
+                        <br />Location: Mirador
+                        <br />Formal dinner, toasts, and celebrations
+                      </span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-rose-400">•</span>
+                      <span>
+                        <strong>22:00 - Dancing & Open Bar</strong>
+                        <br />Location: Casona
+                        <br />Party continues into the night
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+                <p className="text-muted-foreground text-sm md:text-base">
+                  We can't wait to celebrate with you on our special day!
+                </p>
               </div>
             </div>
 
