@@ -193,7 +193,7 @@ export default function InfoPage() {
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-rose-400">•</span>
-                    <span>Every minute over requires <strong>100 euros</strong> placed on the table</span>
+                    <span>Every minute over requires <strong>100 euros</strong> placed on the table, as we want the night to flow well.</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-rose-400">•</span>
