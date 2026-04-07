@@ -201,15 +201,6 @@ export default function InfoPage() {
                       <span className="text-rose-400">•</span>
                       <span>Emma will collect any overdue fees</span>
                     </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-rose-400">•</span>
-                      <span>
-                        Contact Emma:{" "}
-                        <a href="mailto:weddingjoelandemma@gmail.com" className="text-rose-500 hover:underline">
-                          weddingjoelandemma@gmail.com
-                        </a>
-                      </span>
-                    </li>
                   </ul>
                 </div>
               </div>
