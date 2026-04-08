@@ -14,17 +14,14 @@ export default function InfoPage() {
             <Link href="/" className="text-sm font-medium hover:text-rose-400">
               Home
             </Link>
-            <Link href="/rsvp" className="text-sm font-medium hover:text-rose-400">
-              RSVP
+            <Link href="/info" className="text-sm font-medium text-rose-400">
+              Info
             </Link>
             <Link href="/travel" className="text-sm font-medium hover:text-rose-400">
               Travel
             </Link>
             <Link href="/itinerary" className="text-sm font-medium hover:text-rose-400">
               Itinerary
-            </Link>
-            <Link href="/info" className="text-sm font-medium text-rose-400">
-              Info
             </Link>
           </div>
         </div>
@@ -245,9 +242,6 @@ export default function InfoPage() {
           <h2 className="font-serif text-2xl md:text-3xl">Emma & Joel</h2>
           <p className="mt-3 md:mt-4">June 22, 2026</p>
           <div className="mt-6 md:mt-8 flex flex-wrap justify-center gap-6 md:gap-8">
-            <Link href="/rsvp" className="hover:text-rose-400">
-              RSVP
-            </Link>
             <Link href="/travel" className="hover:text-rose-400">
               Travel
             </Link>
