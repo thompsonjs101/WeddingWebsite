@@ -121,8 +121,7 @@ export default function ItineraryPage() {
               </div>
               <div className="px-3 md:px-6">
                 <p className="text-muted-foreground mb-4 text-sm md:text-base">
-                 We are unsure of the plan for this day but we will definitely meet whoever wishes for dinner at <a href= "https://mercadodesanmiguel.es/" className="text-rose-500 hover:underline"> Mercado de San Miguel </a>. It is a food market, which will allow for everyone to eat what they want and there are no reservations needed. 
-                 Although it does get quite busy so don't expect to find seating, however, all the food is designed to be eaten standing up and sharing with others so it should be a fun experience. After this we will probably go out for some drinks in the city.  
+                 We are unsure of the plan for this day but we will definitely meet whoever wishes for dinner, we are currently looking at places we could book for large numbers but if this something you think you would like to join please reach out to Joel or Emma so we can organise it soon.  
                 </p>
               </div>
             </div>
@@ -190,7 +189,7 @@ export default function ItineraryPage() {
                     <li className="flex items-start gap-2">
                       <span className="text-rose-400">•</span>
                       <span>
-                        This will be a relaxed evening with Spanish tapas, drinks, games and a chance to meet everyone before
+                        This will be a relaxed evening with Spanish tapas, drinks and a chance to meet everyone before
                         the wedding day.
                       </span>
                     </li>
@@ -228,7 +227,6 @@ export default function ItineraryPage() {
                       <span>
                         <strong>18:00 - Ceremony</strong>
                         <br />Location: Mirador
-                        <br />Please arrive 15-30 minutes early to be seated
                       </span>
                     </li>
                     <li className="flex items-start gap-2">

@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Sun, Camera, Info, Heart, Mic } from "lucide-react"
+import { Sun, Camera, Info, Heart, Mic, Shirt } from "lucide-react"
 
 export default function InfoPage() {
   return (
@@ -82,27 +82,22 @@ export default function InfoPage() {
                   </div>
                 </div>
                 <p className="text-muted-foreground mb-3 text-sm md:text-base">
-                  We kindly ask that you respect our photography guidelines to ensure everyone can enjoy the day.
+                  We kindly ask that you respect our photographer during the wedding.
                 </p>
                 <ul className="space-y-1 md:space-y-2 text-muted-foreground text-sm md:text-base">
                   <li className="flex items-start gap-2">
                     <span className="text-rose-400">•</span>
-                    <span>No photos during the ceremony</span>
+                    <span>No photos during the ceremony, and ensure you don’t get in his way during the wedding</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-rose-400">•</span>
                     <span>
-                      Please ensure your own photos don't interrupt the chance of having the professional take the
-                      shot
+                      We will set up a POV that will be available from the 18th of June to the 23rd of June. 
                     </span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-rose-400">•</span>
-                    <span>Photos welcome after dinner (around 11:00 PM)</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-rose-400">•</span>
-                    <span>Share with #EmmaAndJoel2026</span>
+                    <span>There will be other things available, but you will just have to wait and see! </span>
                   </li>
                 </ul>
               </div>
@@ -137,72 +132,110 @@ export default function InfoPage() {
               </div>
             </div>
 
-            {/* Second row - 2 columns centered */}
-            <div className="mt-6 md:mt-8 flex justify-center">
-              <div className="grid gap-6 md:gap-8 md:grid-cols-2 max-w-3xl">
-                <div className="p-3 md:p-4">
-                  <div className="flex flex-row items-center gap-3 md:gap-4 mb-3 md:mb-4">
-                    <div className="flex h-10 w-10 md:h-12 md:w-12 items-center justify-center rounded-full bg-rose-100">
-                      <Heart className="h-5 w-5 md:h-6 md:w-6 text-rose-400" />
-                    </div>
-                    <div>
-                      <h3 className="font-medium text-base md:text-lg">Babysitting Services</h3>
-                      <p className="text-xs md:text-sm text-muted-foreground">Available through the hotel</p>
-                    </div>
+            {/* Second row - 3 columns */}
+            <div className="mt-6 md:mt-8 grid gap-6 md:gap-8 md:grid-cols-2 lg:grid-cols-3">
+              <div className="p-3 md:p-4">
+                <div className="flex flex-row items-center gap-3 md:gap-4 mb-3 md:mb-4">
+                  <div className="flex h-10 w-10 md:h-12 md:w-12 items-center justify-center rounded-full bg-rose-100">
+                    <Heart className="h-5 w-5 md:h-6 md:w-6 text-rose-400" />
                   </div>
-                  <p className="text-muted-foreground mb-3 text-sm md:text-base">
-                    The hotel offers babysitting services for families attending the wedding. Please contact them
-                    directly to arrange.
-                  </p>
-                  <ul className="space-y-1 md:space-y-2 text-muted-foreground text-sm md:text-base">
-                    <li className="flex items-start gap-2">
-                      <span className="text-rose-400">•</span>
-                      <span>Professional childcare services available</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-rose-400">•</span>
-                      <span>Advance booking recommended</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-rose-400">•</span>
-                      <span>
-                        Contact:{" "}
-                        <a href="mailto:hotel@cigarraldelasmercedes.com" className="text-rose-500 hover:underline">
-                          hotel@cigarraldelasmercedes.com
-                        </a>
-                      </span>
-                    </li>
-                  </ul>
+                  <div>
+                    <h3 className="font-medium text-base md:text-lg">Babysitting Services</h3>
+                    <p className="text-xs md:text-sm text-muted-foreground">Available through the hotel</p>
+                  </div>
                 </div>
+                <p className="text-muted-foreground mb-3 text-sm md:text-base">
+                  The hotel offers babysitting services for families attending the wedding. Please contact them
+                  directly to arrange.
+                </p>
+                <ul className="space-y-1 md:space-y-2 text-muted-foreground text-sm md:text-base">
+                  <li className="flex items-start gap-2">
+                    <span className="text-rose-400">•</span>
+                    <span>Professional childcare services available</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-rose-400">•</span>
+                    <span>Advance booking recommended</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-rose-400">•</span>
+                    <span>
+                      Contact:{" "}
+                      <a href="mailto:hotel@cigarraldelasmercedes.com" className="text-rose-500 hover:underline">
+                        hotel@cigarraldelasmercedes.com
+                      </a>
+                    </span>
+                  </li>
+                </ul>
+              </div>
 
-                <div className="p-3 md:p-4">
-                  <div className="flex flex-row items-center gap-3 md:gap-4 mb-3 md:mb-4">
-                    <div className="flex h-10 w-10 md:h-12 md:w-12 items-center justify-center rounded-full bg-rose-100">
-                      <Mic className="h-5 w-5 md:h-6 md:w-6 text-rose-400" />
-                    </div>
-                    <div>
-                      <h3 className="font-medium text-base md:text-lg">Speeches</h3>
-                      <p className="text-xs md:text-sm text-muted-foreground">Toastmaster: Emma</p>
-                    </div>
+              <div className="p-3 md:p-4">
+                <div className="flex flex-row items-center gap-3 md:gap-4 mb-3 md:mb-4">
+                  <div className="flex h-10 w-10 md:h-12 md:w-12 items-center justify-center rounded-full bg-rose-100">
+                    <Mic className="h-5 w-5 md:h-6 md:w-6 text-rose-400" />
                   </div>
-                  <p className="text-muted-foreground mb-3 text-sm md:text-base">
-                    If you would like to make a speech at the wedding, please contact <a href= "https://www.facebook.com/emma.bussell.37" className="text-rose-500 hover:underline"> Emma </a> to organise your slot.
-                  </p>
-                  <ul className="space-y-1 md:space-y-2 text-muted-foreground text-sm md:text-base">
-                    <li className="flex items-start gap-2">
-                      <span className="text-rose-400">•</span>
-                      <span><strong>2 minutes maximum</strong> per speech</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-rose-400">•</span>
-                      <span>Every minute over requires <strong>100 euros</strong> placed on the table</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-rose-400">•</span>
-                      <span>Emma will collect any overdue fees</span>
-                    </li>
-                  </ul>
+                  <div>
+                    <h3 className="font-medium text-base md:text-lg">Speeches</h3>
+                    <p className="text-xs md:text-sm text-muted-foreground">Toastmaster: Emma</p>
+                  </div>
                 </div>
+                <p className="text-muted-foreground mb-3 text-sm md:text-base">
+                  If you would like to make a speech at the wedding, please contact Emma to organise your slot.
+                </p>
+                <ul className="space-y-1 md:space-y-2 text-muted-foreground text-sm md:text-base">
+                  <li className="flex items-start gap-2">
+                    <span className="text-rose-400">•</span>
+                    <span><strong>2 minutes maximum</strong> per speech</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-rose-400">•</span>
+                    <span>Every minute over requires <strong>100 euros</strong> placed on the table</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-rose-400">•</span>
+                    <span>Emma will collect any overdue fees</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-rose-400">•</span>
+                    <span>
+                      Contact Emma:{" "}
+                      <a href="mailto:weddingjoelandemma@gmail.com" className="text-rose-500 hover:underline">
+                        weddingjoelandemma@gmail.com
+                      </a>
+                    </span>
+                  </li>
+                </ul>
+              </div>
+
+              <div className="p-3 md:p-4">
+                <div className="flex flex-row items-center gap-3 md:gap-4 mb-3 md:mb-4">
+                  <div className="flex h-10 w-10 md:h-12 md:w-12 items-center justify-center rounded-full bg-rose-100">
+                    <Shirt className="h-5 w-5 md:h-6 md:w-6 text-rose-400" />
+                  </div>
+                  <div>
+                    <h3 className="font-medium text-base md:text-lg">Dress Code</h3>
+                    <p className="text-xs md:text-sm text-muted-foreground">What to wear</p>
+                  </div>
+                </div>
+                <p className="text-muted-foreground mb-3 text-sm md:text-base">
+                  Our bridesmaids will be wearing <strong>light green</strong> dresses. If you would like to avoid matching them, now you know!
+                </p>
+                <ul className="space-y-1 md:space-y-2 text-muted-foreground text-sm md:text-base">
+                  <li className="flex items-start gap-2">
+                    <span className="text-rose-400">•</span>
+                    <span>Bridesmaids: Light green dresses</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-rose-400">•</span>
+                    <span>Once again just wear what you feel comfortable/best in!</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-rose-400">•</span>
+                    <span>
+                      <strong>Ladies: absolutely no white</strong> — there is only one bride, and she has already picked her dress!
+                    </span>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
