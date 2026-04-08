@@ -198,10 +198,7 @@ export default function InfoPage() {
                   <li className="flex items-start gap-2">
                     <span className="text-rose-400">•</span>
                     <span>
-                      Contact Emma:{" "}
-                      <a href="mailto:weddingjoelandemma@gmail.com" className="text-rose-500 hover:underline">
-                        weddingjoelandemma@gmail.com
-                      </a>
+                      Contact <a href= "https://www.facebook.com/emma.bussell.37" className="text-rose-500 hover:underline"> Emma </a>
                     </span>
                   </li>
                 </ul>
