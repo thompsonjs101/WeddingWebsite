@@ -173,7 +173,7 @@ export default function InfoPage() {
                   </div>
                   <div>
                     <h3 className="font-medium text-base md:text-lg">Speeches</h3>
-                    <p className="text-xs md:text-sm text-muted-foreground">Toastmaster: Emma</p>
+                    <p className="text-xs md:text-sm text-muted-foreground">Toastmaster: Emma Goulding</p>
                   </div>
                 </div>
                 <p className="text-muted-foreground mb-3 text-sm md:text-base">
