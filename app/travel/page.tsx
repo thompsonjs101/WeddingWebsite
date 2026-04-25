@@ -13,12 +13,24 @@ export default function TravelPage() {
             E & J
           </Link>
           <div className="flex gap-4 md:gap-6 lg:gap-10 items-center">
-            <Link href="/" className="text-sm font-medium hover:text-rose-400">Home</Link>
-            <Link href="/Info" className="text-sm font-medium hover:text-rose-400">Info</Link>
-            <Link href="/travel" className="text-sm font-medium text-rose-400">Travel</Link>
-            <Link href="/itinerary" className="text-sm font-medium hover:text-rose-400">Itinerary</Link>
-            <Link href="/madrid" className="text-sm font-medium hover:text-rose-400">Madrid</Link>
-            <Link href="/toledo" className="text-sm font-medium hover:text-rose-400">Toledo</Link>
+            <Link href="/" className="text-sm font-medium hover:text-rose-400">
+              Home
+            </Link>
+            <Link href="/Info" className="text-sm font-medium hover:text-rose-400">
+              Info
+            </Link>
+            <Link href="/travel" className="text-sm font-medium hover:text-rose-400">
+              Travel
+            </Link>
+            <Link href="/itinerary" className="text-sm font-medium text-rose-400">
+              Itinerary
+            </Link>
+            <Link href="/madrid" className="text-sm font-medium hover:text-rose-400">
+              Madrid
+            </Link>
+            <Link href="/toledo" className="text-sm font-medium text-rose-400">
+              Toledo
+            </Link>
           </div>
         </div>
       </nav>
@@ -190,11 +202,21 @@ export default function TravelPage() {
           <p className="mt-4">June 22, 2026</p>
 
           <div className="mt-6 flex justify-center gap-6 flex-wrap">
-            <Link href="/Info">Info</Link>
-            <Link href="/travel">Travel</Link>
-            <Link href="/itinerary">Itinerary</Link>
-            <Link href="/madrid">Madrid</Link>
-            <Link href="/toledo">Toledo</Link>
+            <Link href="/Info" className="hover:text-rose-400">
+              Info
+            </Link>
+            <Link href="/travel" className="hover:text-rose-400">
+              Travel
+            </Link>
+            <Link href="/itinerary" className="hover:text-rose-400">
+              Itinerary
+            </Link>
+            <Link href="/madrid" className="hover:text-rose-400">
+              Madrid
+            </Link>
+            <Link href="/toledo" className="hover:text-rose-400">
+              Toledo
+            </Link>
           </div>
 
           <p className="mt-6 text-sm">

@@ -123,17 +123,20 @@ export default function SecretPage() {
             <Link href="/" className="text-sm font-medium hover:text-rose-400">
               Home
             </Link>
-            <Link href="/info" className="text-sm font-medium hover:text-rose-400">
+            <Link href="/Info" className="text-sm font-medium hover:text-rose-400">
               Info
-            </Link>
-            <Link href="/rsvp" className="text-sm font-medium hover:text-rose-400">
-              RSVP
             </Link>
             <Link href="/travel" className="text-sm font-medium hover:text-rose-400">
               Travel
             </Link>
-            <Link href="/itinerary" className="text-sm font-medium hover:text-rose-400">
+            <Link href="/itinerary" className="text-sm font-medium text-rose-400">
               Itinerary
+            </Link>
+            <Link href="/madrid" className="text-sm font-medium hover:text-rose-400">
+              Madrid
+            </Link>
+            <Link href="/toledo" className="text-sm font-medium text-rose-400">
+              Toledo
             </Link>
           </div>
         </div>
@@ -249,7 +252,7 @@ export default function SecretPage() {
           <h2 className="font-serif text-2xl md:text-3xl">Emma & Joel</h2>
           <p className="mt-3 md:mt-4">June 22, 2026</p>
           <div className="mt-6 md:mt-8 flex flex-wrap justify-center gap-6 md:gap-8">
-            <Link href="/info" className="hover:text-rose-400">
+            <Link href="/Info" className="hover:text-rose-400">
               Info
             </Link>
             <Link href="/travel" className="hover:text-rose-400">
@@ -257,6 +260,12 @@ export default function SecretPage() {
             </Link>
             <Link href="/itinerary" className="hover:text-rose-400">
               Itinerary
+            </Link>
+            <Link href="/madrid" className="hover:text-rose-400">
+              Madrid
+            </Link>
+            <Link href="/toledo" className="hover:text-rose-400">
+              Toledo
             </Link>
           </div>
           <p className="mt-6 md:mt-8 text-xs md:text-sm px-4">

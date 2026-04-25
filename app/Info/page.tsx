@@ -14,14 +14,20 @@ export default function InfoPage() {
             <Link href="/" className="text-sm font-medium hover:text-rose-400">
               Home
             </Link>
-            <Link href="/info" className="text-sm font-medium text-rose-400">
+            <Link href="/Info" className="text-sm font-medium hover:text-rose-400">
               Info
             </Link>
             <Link href="/travel" className="text-sm font-medium hover:text-rose-400">
               Travel
             </Link>
-            <Link href="/itinerary" className="text-sm font-medium hover:text-rose-400">
+            <Link href="/itinerary" className="text-sm font-medium text-rose-400">
               Itinerary
+            </Link>
+            <Link href="/madrid" className="text-sm font-medium hover:text-rose-400">
+              Madrid
+            </Link>
+            <Link href="/toledo" className="text-sm font-medium text-rose-400">
+              Toledo
             </Link>
           </div>
         </div>
@@ -105,25 +111,25 @@ export default function InfoPage() {
                     <Info className="h-5 w-5 md:h-6 md:w-6 text-rose-400" />
                   </div>
                   <div>
-                    <h3 className="font-medium text-base md:text-lg">Special Needs</h3>
-                    <p className="text-xs md:text-sm text-muted-foreground">Accommodations</p>
+                    <h3 className="font-medium text-base md:text-lg">Gifts</h3>
+                    <p className="text-xs md:text-sm text-muted-foreground">Gifts are not necessary</p>
                   </div>
                 </div>
                 <p className="text-muted-foreground mb-3 text-sm md:text-base">
-                  If you have any dietary restrictions or special needs, please let us know when you RSVP.
+                  Your attendance is already more than we could ask for. However we have had a few people ask what our gift list is, we have said nothing and we stick by that.
                 </p>
                 <ul className="space-y-1 md:space-y-2 text-muted-foreground text-sm md:text-base">
                   <li className="flex items-start gap-2">
                     <span className="text-rose-400">•</span>
-                    <span>Dietary requirements</span>
+                    <span>However if you are one of those that feel some sort of need to give something then money for our honeymoon would be most appreciated.</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-rose-400">•</span>
-                    <span>Accessibility needs</span>
+                    <span>But once again we do not want any of you to feel a gift is necessary.</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-rose-400">•</span>
-                    <span>Contact us with any concerns</span>
+                    <span>We are truly blessed to have you all come and celebrate us and that is more than enough for us.</span>
                   </li>
                 </ul>
               </div>
@@ -242,14 +248,20 @@ export default function InfoPage() {
           <h2 className="font-serif text-2xl md:text-3xl">Emma & Joel</h2>
           <p className="mt-3 md:mt-4">June 22, 2026</p>
           <div className="mt-6 md:mt-8 flex flex-wrap justify-center gap-6 md:gap-8">
+            <Link href="/Info" className="hover:text-rose-400">
+              Info
+            </Link>
             <Link href="/travel" className="hover:text-rose-400">
               Travel
             </Link>
             <Link href="/itinerary" className="hover:text-rose-400">
               Itinerary
             </Link>
-            <Link href="/info" className="hover:text-rose-400">
-              Info
+            <Link href="/madrid" className="hover:text-rose-400">
+              Madrid
+            </Link>
+            <Link href="/toledo" className="hover:text-rose-400">
+              Toledo
             </Link>
           </div>
           <p className="mt-6 md:mt-8 text-xs md:text-sm px-4">

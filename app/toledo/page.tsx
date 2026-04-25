@@ -21,7 +21,7 @@ export default function ToledoPage() {
             <Link href="/travel" className="text-sm font-medium hover:text-rose-400">
               Travel
             </Link>
-            <Link href="/itinerary" className="text-sm font-medium hover:text-rose-400">
+            <Link href="/itinerary" className="text-sm font-medium text-rose-400">
               Itinerary
             </Link>
             <Link href="/madrid" className="text-sm font-medium hover:text-rose-400">
