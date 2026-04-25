@@ -121,7 +121,7 @@ export default function InfoPage() {
                 <ul className="space-y-1 md:space-y-2 text-muted-foreground text-sm md:text-base">
                   <li className="flex items-start gap-2">
                     <span className="text-rose-400">•</span>
-                    <span>However if you are one of those that feel some sort of need to give something then money for our honeymoon would be most appreciated.</span>
+                    <span>If you are one of those that feel some sort of need to give something then money for our honeymoon would be most appreciated.</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-rose-400">•</span>
